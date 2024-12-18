@@ -48,9 +48,8 @@ header{
     transition: all .4s ease-out;
 }
 .bottom-play:hover i{
-    transform: rotate(125deg);
-    transition: all .4s ease-out;
-    font-size: 24px;
+    transform: rotate(360deg);
+    transition: all .4s ease-out;   
 }
 
 .bg-cta{
@@ -121,6 +120,45 @@ hr.convo{
     opacity: 1;
 }
 
+.btn-download{
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px 18px 10px 0px;
+    
+}
+
+.btn-download:hover{
+    border: 2px solid var(--color-secondary);
+    color: var(--color-secondary);
+}
+.bg-icon{
+    background-color: var(--color-primary);
+    height: 44px;
+    width: 44px;
+    border-radius: 3px 0 0  3px;
+}
+
+.iconol {
+    
+   
+    color: #fff;
+    padding: 12px;
+   
+}
+.btn-download:hover .iconol {
+    background-color: var(--color-secondary);
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+
+
 @media (max-width: 575.98px) { 
     header{
         height: auto;
@@ -134,3 +172,27 @@ hr.convo{
         text-align: center;
     }
  }
+
+
+
+ .btn-label {
+	position: relative;
+    background-color: var(--color-primary);
+    color: #fff;
+	left: -12px;
+	display: inline-block;
+	padding: 6px 12px;
+	
+	border-radius: 3px 0 0 3px;
+}
+
+.btn-labeled {
+	padding-top: 0;
+	padding-bottom: 0;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.btn {
+	margin-bottom: 10px;
+}

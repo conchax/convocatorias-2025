@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/img/favicon.png">
@@ -70,30 +70,33 @@
             </div>
         </div>
 
-        <div class="container-fluid bg-cta">
-            <div class="row justify-content-center items-aling-center">
-                <div class="col-12 col-md-6 text-end">
-                    <img src="assets/img/identidad-G74.png" alt="G74">
-                </div>
-                <div class="col-12 col-md-6 text-center">
-                    <div class="mb-4">
-                        <a href="#"><img class="btn-cta" src="assets/img/btn-cta.png" alt="btn"></a>
+        <div class="bg-cta">
+            <div class="container">
+                <div class="row justify-content-center items-aling-center">
+                    <div class="col-12 col-md-5 text-end mb-4">
+                        <img src="assets/img/identidad-G74.png" alt="G74">
                     </div>
-                    <p class="fecha mb-4">del 20 al 31 de enero</p>
-                    <p><a class="btn btn-estatus mb-4" href="#">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
-                   
-                    <div class="row justify-content-center">
-                        <div class="col-10 col-md-8">
-                            <div class="row justify-content-center">
-                                <div class="col-6 col-md-4"><a class="btn-opciones" href="#"><i class="fa-solid fa-arrow-down"></i> Requisitos </a></div>
-                                <div class="col-6 col-md-4 mb-4"><a class="btn-opciones" href="#"><i class="fa-solid fa-arrow-down"></i> Bases</a></div>
-                                <div class="col-12 col-md-4 mb-4"><a class="btn-opciones" href="#"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></div>
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="mb-4">
+                            <a href="#"><img class="btn-cta" src="assets/img/btn-cta.png" alt="btn"></a>
+                        </div>
+                        <p class="fecha mb-4">del 20 al 31 de enero</p>
+                        <p><a class="btn btn-estatus mb-4" href="#">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
+                       
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-md-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requisitos </a></div>
+                                    <div class="col-6 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></div>
+                                    <div class="col-12 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></div>
+                                </div>
                             </div>
                         </div>
                     </div>
+    
                 </div>
-
             </div>
+            
         </div>
     </section>
 
@@ -119,21 +122,21 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/G71.png" alt="convocatoria 71">
-                        <p> <a class="btn-opciones" href="#"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
                         <p> <a class="btn-opciones" href=""><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/G72.png" alt="convocatoria 72">
-                        <p> <a class="btn-opciones" href="#"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
                         <p> <a class="btn-opciones" href=""><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/G73.png" alt="convocatoria 73">
-                        <p> <a class="btn-opciones" href="#"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
                         <p> <a class="btn-opciones" href=""><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
                     </div>
                 </div>
@@ -153,26 +156,21 @@
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-12 col-md-4">
-                   <!--  <a href="#" class="btn-download mb-4">
-                        <div class="bg-icon">
-                            <i class="fa-solid fa-bullhorn iconol"></i>
-                        </div>
-                         <span>Difusión y vinculación</span> 
-                    </a> -->
-
                     <a class="btn btn-labeled ">
-                        <span class="btn-label"><i class="fa-solid fa-bullhorn"></i></span>Success
+                        <span class="btn-label"><i class="fa-solid fa-bullhorn iconol"></i></span> <div class="text-bottom">Difusión y vinculación</div> 
                     </a>
                 </div>
                 <div class="col-12 col-md-4">
-                    <a href="#" class="btn btn-download mb-4">
-                        <i class="fa-solid fa-user-check iconol"></i> <span>Kit del aspirante</span> 
+                    <a class="btn btn-labeled ">
+                        <span class="btn-label"><i class="fa-solid fa-user-check iconol"></i></span><div class="text-bottom">Kit del aspirante</div>
                     </a>
+                    
                 </div>
                 <div class="col-12 col-md-4">
-                    <a href="#" class="btn btn-download mb-4">
-                        <img src="assets/img/fa--mesatrabajo.png" alt="mesa de trabajo" class="iconol"> <span>Mesa de servicio</span> 
+                    <a class="btn btn-labeled ">
+                        <span class="btn-label"><img src="assets/img/fa--mesatrabajo.png" alt="mesa de trabajo" class="iconol" width="24px" ></span><div class="text-bottom">Mesa de servicio</div>
                     </a>
+                  
                 </div>
             </div>
         </div>
@@ -205,6 +203,252 @@
 <!-- footer --> 
 
 
+    <!-- Modal requisitos -->
+    <div class="modal fade" id="requisitos" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Requisitos</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10">
+                            <p>Para participar en la convocatoria como aspirante de Prepa en Línea-SEP, debes cumplir con estos requisitos:</p>
+                            <ul>
+                                <li style="list-style-type: none;">
+                                    <ul>
+                                        <li>Tener nacionalidad mexicana. Si eres extranjero, debes demostrar tu estancia legal en México.</li>
+                                        <li>Contar con certificado de secundaria o la equivalencia correspondiente.</li>
+                                        <li>Tener dos correos electrónicos válidos, personales e intransferibles, que no hayan sido utilizados en convocatorias anteriores y que se mantengan activos durante todo el proceso. Estos correos <strong>no podrán ser modificados durante el registro</strong> y la emisión de resultados.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>Además, necesitarás los siguientes documentos para completar tu registro:</p>
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <p class="text-center"><b>Ejemplos de CURP</b> </p>
+                    
+                                    <p class="text-center"><img src="assets/img/Ejemplos-CURP.webp" alt="curp" class="img-fluid"></p>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <p class="text-center"> <b>Ejemplos de acta de nacimiento</b> </p>
+                    
+                                    <p class="text-center">
+                                        <img src="assets/img/Acta-de-Nacimiento-por-internet.webp" alt="Acta de naciemiento" class="img-fluid">
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                                                                                                                  
+            </div>
+            
+          </div>
+        </div>
+    </div> 
+
+    <!-- Modal Bases -->
+    <div class="modal fade" id="bases" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Bases</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <iframe src="kit-74/G74-bases.pdf" width="100%" height="600px"></iframe>
+                    </div>
+            
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 col-md-11 text-center">
+                            Fecha sugerida de publicación <b>13 de enero </b>  <a class="btn btn-labeled" href="kit-74/G74-bases.pdf" download="PL-SEP_Convo2025-G74-bases.pdf">
+                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
+                            </a>
+                            <a id="descarga-bases" class="btn btn-homeconv" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+
+     <!-- Modal Guia -->
+     <div class="modal fade" id="guia" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Guía</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <iframe src="kit-74/G74-guia-registro.pdf" width="100%" height="600px"></iframe>
+                    </div>
+            
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 col-md-11 text-center">
+                            Fecha sugerida de publicación <b>13 de enero </b>  <a class="btn btn-labeled" href="kit-74/G74-guia-registro.pdf" download="PL-SEP_Convo2025-G74-guia.pdf">
+                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
+                            </a>
+                            <a id="descarga-bases" class="btn btn-homeconv" ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+    </div>
+
+   
+  
+  <!-- Modal sigueprocesoA -->
+  <div class="modal fade" id="sigueprocesoA" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10">
+                        <div class="text-center"> <img src="assets/img/G71.png" alt="G71"></div>
+                        <p class="text-center"> <a class="btn-opciones" href=""><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
+                        <ul class="timeline text-center">
+                            <li>
+                                <a class="btn btn-timeline " href="#">Regístrate</a>
+                                <p>del 7 al 18 de octubre</p>
+                            </li>
+                            <li>
+                                <a class="btn btn-timeline " href="#">Obtén tus claves de acceso</a>
+                                <p>del 23 al 27 de octubre</p>
+                            </li>
+                            <li>
+                                <a class="btn btn-timeline " href="#">Cursa el módulo propedéutico</a>
+                                <p>del 28 de octubre <br>
+                                    al 24 de noviembre</p>
+                            </li>
+                            <li>
+                                <a class="btn btn-timeline " href="#">Consulta tus resultados e inscríbete</a>
+                                <p>del 29 de noviembre  <br>
+                                    al 11 de diciembre</p>
+                            </li>
+                            <li class="enproceso">
+                                <a class="btn btn-timeline " href="#">Cursa módulo 1</a>
+                                <p>del 16 de diciembre <br>
+                                    al 2 de febrero</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>                                                                                                                                  
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal sigueprocesoB -->
+  <div class="modal fade" id="sigueprocesoB" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10">
+                        <div class="text-center"> <img src="assets/img/G72.png" alt="G72"></div>
+                        <p class="text-center"> <a class="btn-opciones" href=""><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
+                        <ul class="timeline text-center">
+                            <li>
+                                <a class="btn btn-timeline " href="#">Regístrate</a>
+                                <p>del 4 al 15 de noviembre</p>
+                            </li>
+                            <li>
+                                <a class="btn btn-timeline " href="#">Obtén tus claves de acceso</a>
+                                <p>del 20 al 24 de noviembre</p>
+                            </li>
+                            <li>
+                                <a class="btn btn-timeline " href="#">Cursa el módulo propedéutico</a>
+                                <p>del 25 de noviembre <br>
+                                    al 22 de diciembre</p>
+                            </li>
+                            <li class="enproceso">
+                                <a class="btn btn-timeline " href="#">Consulta tus resultados e inscríbete</a>
+                                <p>del 17 al 29 de enero</p>
+                            </li>
+                            <li >
+                                <a class="btn btn-timeline " href="#">Cursa módulo 1</a>
+                                <p>del 3 de febrero <br>
+                                    al 2 de marzo</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>                                                                                                                                  
+        </div>
+        
+      </div>
+    </div>
+  </div> 
+  
+    <!-- Modal sigueprocesoC -->
+    <div class="modal fade" id="sigueprocesoC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10">
+                            <div class="text-center"> <img src="assets/img/G73.png" alt="G73"></div>
+                            <p class="text-center"> <a class="btn-opciones" href=""><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
+                            <ul class="timeline text-center">
+                                <li>
+                                    <a class="btn btn-timeline " href="#">Regístrate</a>
+                                    <p>del 2 al 13 de diciembre</p>
+                                </li>
+                                <li>
+                                    <a class="btn btn-timeline " href="#">Obtén tus claves de acceso</a>
+                                    <p>del 18 al 22 de diciembre</p>
+                                </li>
+                                <li class="enproceso">
+                                    <a class="btn btn-timeline " href="#">Cursa el módulo propedéutico</a>
+                                    <p>del 13 de enero <br>
+                                        al 9 de febrero</p>
+                                </li>
+                                <li>
+                                    <a class="btn btn-timeline " href="#">Consulta tus resultados e inscríbete</a>
+                                    <p>del 14 al 26 de febrero</p>
+                                </li>
+                                <li>
+                                    <a class="btn btn-timeline " href="#">Cursa módulo 1</a>
+                                    <p>del 3 al 30 de marzo</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                                                                                                                                  
+            </div>
+            
+          </div>
+        </div>
+    </div> 
 
     <script type="text/javascript" src="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/js/pls.min.js?ver=6.4.1" id="plsep-js-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

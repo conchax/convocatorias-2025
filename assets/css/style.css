@@ -13,7 +13,7 @@ background-color: #FAFAFA;
 color: #3E3D4C;
 }
 
-h1{
+h1, .text-titulo{
     font-size: 40px;
     font-weight: 600;
 }
@@ -105,10 +105,26 @@ header{
 .btn-opciones:hover i{
     transform: rotateY(360deg);  
 }
-
+.parrafo-s{
+    font-size: 16px;
+    color: #3E3D4C;
+    font-weight: 400;
+}
 .parrafo{
     font-size: 20px;
     font-weight: 300;
+}
+.parrafo-m{
+    font-size: 22px;
+    font-weight: 500;
+}
+.parrafo-ml{
+    font-size: 22px;
+    font-weight: 400;
+}
+.parrafo-ml span{
+    color: var(--color-primary);
+    font-style: italic;
 }
 
 .card-convo{
@@ -119,25 +135,6 @@ hr.convo{
     color: var(--color-secondary);
     opacity: 1;
 }
-
-
-
-
-@media (max-width: 575.98px) { 
-    header{
-        height: auto;
-    }
-    .logo{
-        padding-left: 0;
-    }
-    .des{
-        top: 20px;
-        left: 0px;
-        text-align: center;
-    }
- }
-
-
 
  .btn-label {
 	position: relative;
@@ -217,15 +214,11 @@ ul.timeline:before {
     z-index: 400;
 }
 
-ul.timeline[before]ul.timeline:last-child{
+
+ul.timeline li:last-child::after{
     content: ' ';
-    background:#fff;
-    display: inline-block;
-    position: absolute;
-    left: 29px;
+    background:#ff0;
     width: 2px;
-    height: 100%;
-    z-index: 400;
 }
 
 ul.timeline > li {
@@ -263,3 +256,67 @@ ul.timeline > li.enproceso:before{
     border: 1px solid var(--color-secondary);
     color: var(--color-secondary);
 }
+
+.recursos .rc{
+    margin: 14px 10px;
+    vertical-align: top;
+}
+
+.card-copy-text{
+    width: 330px;
+    border: 2px solid var(--color-primary);
+    color: var(--color-primary);
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 10px ;
+    display: inline-block;
+  
+}
+
+.bottom-copy{
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 400; 
+    float: right;
+}
+.slick-list img{
+    border: 2px solid var(--color-complementary);
+}
+.infog{
+    width: 600px;
+}
+
+.modal-body iframe.short{
+    width: 370px;
+    height: 600px;
+}
+
+@media (max-width: 575.98px) { 
+    header{
+        height: auto;
+    }
+    .logo{
+        padding-left: 0;
+    }
+    .des{
+        top: 20px;
+        left: 0px;
+        text-align: center;
+    }
+    .text-bottom {
+        width: 180px;
+    }
+    .slick-dots{
+        position: static;
+    }
+    .slick-slide {
+        margin-left: 20px;
+    }
+    .slick-list img{
+        width: 100%;
+    }
+    .modal-body iframe.short{
+        width: 250px;
+        height: 390px;
+    }
+ }

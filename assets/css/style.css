@@ -279,6 +279,24 @@ ul.timeline > li.enproceso:before{
     font-weight: 400; 
     float: right;
 }
+
+.bottom-play{
+    color: #919191;
+    font-size: 18px;
+    font-weight: 500;    
+}
+.bottom-copy:hover{
+    color:var(--color-secondary) ;
+    transition: all .4s ease-out;
+}
+.bottom-copy i{
+    transition: all .4s ease-out;
+}
+.bottom-copy:hover i{
+    transform: rotateY(360deg);
+    transition: all .4s ease-out;   
+}
+
 .slick-list img{
     border: 2px solid var(--color-complementary);
 }
@@ -290,7 +308,13 @@ ul.timeline > li.enproceso:before{
     width: 370px;
     height: 600px;
 }
-
+iframe {
+    border: none;
+    line-height: 1;
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+}
 @media (max-width: 575.98px) { 
     header{
         height: auto;

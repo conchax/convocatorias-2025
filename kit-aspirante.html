@@ -1,14 +1,15 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
       <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick.css"/>
 <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="slick-theme.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <style>
         .borde-categorias{
             border: 1px solid #6C4F82;
@@ -22,186 +23,917 @@
         .btn-categorias:hover{
             color: #B395C2;
         }
+        
+        .titulos-shorts{
+            font-size: 20px;
+            font-weight: 500;
+            color: #6C4F82;
+        }
+        .slick-slide img {
+            margin: 0 auto;
+            width: 100%;
+            max-width: 226px;
+        }
+        .slick-slide a{
+            color: #6C4F82;
+            text-decoration: none;
+        }
+        .slick-slide a:hover{
+            color: #B395C2;
+        }
+        .modal-body iframe.short{
+            width: 370px;
+            height: 600px;
+        }
+
+        .sos .slick-slide .slick-cloned div{
+            height: 100px!important;
+        }
+
+        @media (max-width: 768px) { 
+
+           
+            .generales img, .sos img, .aulas img{
+                display: none;
+            }
+            .generales .slick-list.draggable {
+                height: auto!important;
+            }
+            .sos .slick-track, .aulas .slick-track{
+                top: 0px;
+            }
+            
+            .btn-play{
+                border: 1px solid #EEEEEE;
+                width: 300px;
+                height: 110px;
+                align-content: center;
+            }
+            .modal-body iframe.short{
+                width: 250px;
+                height: 390px;
+            }
+           
+         }
     </style>
   </head>
   <body>
     
     <section>
         <div class="container">
+            <!-- Generales -->
             <div class="row">
                 <div class="col-12">
                     <div class="borde-categorias text-center">
-
-                        <a class="btn btn-categorias dropdown-toggle" data-bs-toggle="collapse" href="#collapseRequisitos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <a id="btn-generales" class="btn btn-categorias dropdown-toggle" data-bs-toggle="collapse" href="#collapseGenerales" role="button" aria-expanded="false" aria-controls="collapseExample">
                             Generales
                         </a>
-
-                        <div class="collapse" id="collapseRequisitos">
+                        <div class="collapse mt-3" id="collapseGenerales">
                             <div class="container fluid">
                                 <div class="row justify-content-center">
                                     <section class="generales slider">
                                         <div>
-                                            <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">
-                                          </div>
-                                          <div>
-                                            <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">
-                                          </div>
-                                          <div>
-                                            <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">
-                                          </div>
-                                          <div>
-                                            <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">  
-                                          </div>
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/EMzQWpNXZJQ?si=KxM_VEQI82DC6Syl"  data-bs-toggle="modal" data-bs-target="#generales-1" data-url="https://www.youtube.com/embed/EMzQWpNXZJQ?si=KxM_VEQI82DC6Syl">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/8.jpg" alt="¿Qué es un aspirante a Prepa en Línea-SEP?">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Qué es un aspirante a Prepa en Línea-SEP?</div>
+                                            </a>
+                                        </div>
                                     </section>
-                                    <!-- <section class="generales slider">
-                                        <div>
-                                          <img src="assets/img/logos/1.jpg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sos -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="borde-categorias text-center">
+                        <a id="btn-sos" class="btn btn-categorias dropdown-toggle" data-bs-toggle="collapse" href="#collapseSos" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            S.O.S. Tecnológico
+                        </a>
+
+                        <div class="collapse mt-3" id="collapseSos">
+                            <div class="container fluid">
+                                <div class="row justify-content-center">
+                                    <section class="sos slider">
+                                        <div >
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/3bZw5_a8Src?si=8q5E8eiFHLL_PkQS"  data-bs-toggle="modal" data-bs-target="#sos-1" data-url="https://www.youtube.com/embed/3bZw5_a8Src?si=8q5E8eiFHLL_PkQS">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/4.jpg" alt="¿Qué es un aspirante a Prepa en Línea-SEP?">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Cuida tu equipo para un mejor rendimiento</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/2.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/zX_ycXdGMKQ?si=baCplnlAhjhM5w2U"  data-bs-toggle="modal" data-bs-target="#sos-2" data-url="https://www.youtube.com/embed/zX_ycXdGMKQ?si=baCplnlAhjhM5w2U">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/6.jpg" alt="¿Sabes cómo cuidar tu celular o tableta?">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Sabes cómo cuidar tu celular o tableta?</div>
+                                            </a>
+                                            
+                                        </div >
+                                        <div >
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/i5EW3xGoaPQ?si=26XuGNe4oGudDqiE"  data-bs-toggle="modal" data-bs-target="#sos-3" data-url="https://www.youtube.com/embed/i5EW3xGoaPQ?si=26XuGNe4oGudDqiE">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/9.jpg" alt="¡Ya no tengo espacio en mi compu!">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¡Ya no tengo espacio en mi compu!</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/3.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/tEU99u0Y_No?si=S6y2-cYAB8fMTgqV"  data-bs-toggle="modal" data-bs-target="#sos-4" data-url="https://www.youtube.com/embed/tEU99u0Y_No?si=S6y2-cYAB8fMTgqV">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/10.jpg" alt="Navegadores de internet">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Navegadores de internet</div>
+                                            </a>
+                                        </div>
+
+                                        <div>
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/Y4dqBTqybpY?si=VxOSw6H63qDJv9FX"  data-bs-toggle="modal" data-bs-target="#sos-5" data-url="https://www.youtube.com/embed/Y4dqBTqybpY?si=VxOSw6H63qDJv9FX">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/11.jpg" alt="Buscadores de internet">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Buscadores de internet</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/4.jpg">  
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/-YSmJUHDPUg?si=lYo-weyljBqHtde4"  data-bs-toggle="modal" data-bs-target="#sos-6" data-url="https://www.youtube.com/embed/-YSmJUHDPUg?si=lYo-weyljBqHtde4">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/12.jpg" alt="¿Qué pasa si no entregas tus actividades del módulo propedéutico?!">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Qué pasa si no entregas tus actividades del módulo propedéutico?</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/5.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/aqLH_eJLgsI?si=SopnRGa3T2J2wqkh"  data-bs-toggle="modal" data-bs-target="#sos-7" data-url="https://www.youtube.com/embed/aqLH_eJLgsI?si=SopnRGa3T2J2wqkh">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/13.jpg" alt="Recomendaciones para organizar tus documentos en Drive">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Recomendaciones para organizar tus documentos en Drive</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/6.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/hsfa8XylteY?si=8isNp62ndqruCM4x"  data-bs-toggle="modal" data-bs-target="#sos-8" data-url="https://www.youtube.com/embed/hsfa8XylteY?si=8isNp62ndqruCM4x">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/14.jpg" alt="Comparte información a través del correo electrónico ">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Comparte información a través del correo electrónico </div>
+                                            </a>
+                                        </div>
+
+                                        <div>
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/cLWoI5LXgo0?si=tTi1hi1-0LabId_7"  data-bs-toggle="modal" data-bs-target="#sos-9" data-url="https://www.youtube.com/embed/cLWoI5LXgo0?si=tTi1hi1-0LabId_7">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/15.jpg" alt="¿Cómo realizo una captura de pantalla en mi PC?">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Cómo realizo una captura de pantalla en mi PC?</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/7.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/XleslZ2INhw?si=s_5eO-YKwyBJCaaa"  data-bs-toggle="modal" data-bs-target="#sos-10" data-url="https://www.youtube.com/embed/XleslZ2INhw?si=s_5eO-YKwyBJCaaa">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/16.jpg" alt="Almacena tus contraseñas de forma segura">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Almacena tus contraseñas de forma segura</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/8.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/-3AVIHOOCCI?si=WjshMkvKROVZC9zX"  data-bs-toggle="modal" data-bs-target="#sos-11" data-url="https://www.youtube.com/embed/-3AVIHOOCCI?si=WjshMkvKROVZC9zX">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/18.jpg" alt="Organiza tu bandeja de correo para tu estudio en línea">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Organiza tu bandeja de correo para tu estudio en línea</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/9.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/Nbl3bOPLwk4?si=Md2my4PWOhjvHF0u"  data-bs-toggle="modal" data-bs-target="#sos-12" data-url="https://www.youtube.com/embed/Nbl3bOPLwk4?si=Md2my4PWOhjvHF0u">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/19.jpg" alt="Herramientas de comunicación en el aula virtual">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Herramientas de comunicación en el aula virtual</div>
+                                            </a>
+                                        </div>
+
+                                        <div>
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/S1omybumHqA?si=rlM_DGOV-uNxIBik"  data-bs-toggle="modal" data-bs-target="#sos-13" data-url="https://www.youtube.com/embed/S1omybumHqA?si=rlM_DGOV-uNxIBik">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/20.jpg" alt="Plataforma educativa y aula virtual">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Plataforma educativa y aula virtual</div>
+                                            </a>
                                         </div>
                                         <div>
-                                          <img src="assets/img/logos/10.jpg">
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/7FZcKFrhLt8?si=c0M0girpnM42I9-W"  data-bs-toggle="modal" data-bs-target="#sos-14" data-url="https://www.youtube.com/embed/7FZcKFrhLt8?si=c0M0girpnM42I9-W">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/22.jpg" alt="¿Cómo tomar capturas de pantalla? [Versión celular y tableta 📲">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Cómo tomar capturas de pantalla? [Versión celular y tableta</div>
+                                            </a>
                                         </div>
-                                        <div>
-                                            <img src="assets/img/logos/11.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/12.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/13.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/14.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/15.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/16.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/17.jpg">
-                                        </div>
-                    
-                                        <div>
-                                            <img src="assets/img/logos/18.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/19.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/20.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/21.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/22.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/23.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/24.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/25.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/26.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/27.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/28.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/29.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/30.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/31.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/32.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/33.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/34.jpg">
-                                        </div>
-                                        <div>
-                                            <img src="assets/img/logos/35.jpg">
-                                        </div>
-                                    </section> -->
+                                        
+                                    </section>
+                                   
                                 </div>
                                 
                             </div>
                         </div>
-                        
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <section class="generales slider">
-                    <div>
-                      <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">
+
+            <!-- aulas -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="borde-categorias text-center">
+                        <a id="btn-aulas" class="btn btn-categorias dropdown-toggle" data-bs-toggle="collapse" href="#collapseAulas" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            No te pierdas en el aula
+                        </a>
+
+                        <div class="collapse mt-3" id="collapseAulas">
+                            <div class="container fluid">
+                                <div class="row justify-content-center">
+                                    <section class="aulas slider">
+                                        <div >
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/ucAYOxHQzQU?si=aR1OecmEW5862YzO"  data-bs-toggle="modal" data-bs-target="#aula-1" data-url="https://www.youtube.com/embed/ucAYOxHQzQU?si=aR1OecmEW5862YzO">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/5.jpg" alt="¿Qué es el módulo propedéutico?">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Qué es el módulo propedéutico?</div>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/0bVP_l9Zg8c?si=EZukUy_zOfpxmbrA"  data-bs-toggle="modal" data-bs-target="#aula-2" data-url="https://www.youtube.com/embed/0bVP_l9Zg8c?si=EZukUy_zOfpxmbrA">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/7.jpg" alt="¿Cómo es estudiar en Prepa en Línea-SEP?">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Cómo es estudiar en Prepa en Línea-SEP?</div>
+                                            </a>
+                                        </div >
+                                        <div >
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/7mvGNRzZ_4E?si=ppMvLTQtcM0CdKlx"  data-bs-toggle="modal" data-bs-target="#aula-3" data-url="https://www.youtube.com/embed/7mvGNRzZ_4E?si=ppMvLTQtcM0CdKlx">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/17.jpg" alt="¿Cómo interactuar con mis compañeros y figuras educativas?">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> ¿Cómo interactuar con mis compañeros y figuras educativas?</div>
+                                            </a>
+                                        </div>
+                                        <div>
+                                            <a class="btn btn-play mb-3" href="https://www.youtube.com/embed/TZmoI22lefw?si=XBGzMfRfyQOuKh7Z"  data-bs-toggle="modal" data-bs-target="#aula-4" data-url="https://www.youtube.com/embed/TZmoI22lefw?si=XBGzMfRfyQOuKh7Z">
+                                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/21.jpg" alt="Mi primer día en el módulo propedéutico">
+                                                <div class="titulos-shorts text-center"><i class="fa-solid fa-play"></i> Mi primer día en el módulo propedéutico</div>
+                                            </a>
+                                        </div>
+                                    </section>
+                                   
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                      <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">
-                    </div>
-                    <div>
-                      <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">
-                    </div>
-                    <div>
-                      <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/preview-short.png">  
-                    </div>
-                </section>
+                </div>
             </div>
+            
         </div>
     </section>
+
+
+  <!-- GENERALES ¿Qué es un aspirante a Prepa en Línea-SEP? -->
+<div class="modal fade" id="generales-1" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">Generales</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Qué es un aspirante a Prepa en Línea-SEP?</p>
+                            <p>¿Aspirante o estudiante? Identifica los pasos que debes completar para ingresar a Prepa en Línea-SEP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- SOS Cuida tu equipo para un mejor rendimiento -->
+<div class="modal fade" id="sos-1" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Cuida tu equipo para un mejor rendimiento</p>
+                            <p>5 tips para mejorar el rendimiento de tu equipo.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- SOS ¿Sabes cómo cuidar tu celular o tableta? -->
+  <div class="modal fade" id="sos-2" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Sabes cómo cuidar tu celular o tableta?</p>
+                            <p>10 tips para cuidar tu celular o tableta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- SOS ¡Ya no tengo espacio en mi compu! -->
+<div class="modal fade" id="sos-3" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¡Ya no tengo espacio en mi compu!</p>
+                            <p>Descubre opciones físicas para guardar tus documentos e información.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Navegadores de internet -->
+<div class="modal fade" id="sos-4" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Navegadores de internet</p>
+                            <p>Te contamos sobre los navegadores de internet que puedes usar para estudiar en Prepa en Línea-SEP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Buscadores de internet -->
+<div class="modal fade" id="sos-5" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Buscadores de internet</p>
+                            <p>Te presentamos los buscadores de internet que puedes utilizar para tus estudios en línea. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS ¿Qué pasa si no entregas tus actividades del módulo propedéutico? -->
+<div class="modal fade" id="sos-6" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Qué pasa si no entregas tus actividades del módulo propedéutico?</p>
+                            <p>¿Sabías que tu módulo propedéutico se evalúa por medio de actividades? ¿Qué pasa si no las entregas?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Recomendaciones para organizar tus documentos en Drive -->
+<div class="modal fade" id="sos-7" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Recomendaciones para organizar tus documentos en Drive</p>
+                            <p>Recomendaciones prácticas para organizar tus archivos y carpetas en Drive.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Comparte información a través del correo electrónico  -->
+<div class="modal fade" id="sos-8" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Comparte información a través del correo electrónico </p>
+                            <p>Pasos a seguir para compartir información a través de tu correo de Gmail.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS ¿Cómo realizo una captura de pantalla en mi PC? -->
+<div class="modal fade" id="sos-9" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Cómo realizo una captura de pantalla en mi PC?</p>
+                            <p>Instrucciones para realizar una captura de pantalla en tu PC utilizando el teclado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Almacena tus contraseñas de forma segura -->
+<div class="modal fade" id="sos-10" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Almacena tus contraseñas de forma segura</p>
+                            <p>Consejos para almacenar tus contraseñas de forma segura.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Organiza tu bandeja de correo para tu estudio en línea -->
+<div class="modal fade" id="sos-11" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Organiza tu bandeja de correo para tu estudio en línea</p>
+                            <p>Descubre cómo puedes organizar tu correo de Gmail para un mejor control de la información.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Herramientas de comunicación en el aula virtual -->
+<div class="modal fade" id="sos-12" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Herramientas de comunicación en el aula virtual</p>
+                            <p>Identifica las herramientas que estarán disponibles en el aula para comunicarte con tu asesor y compañeros.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS Plataforma educativa y aula virtual -->
+<div class="modal fade" id="sos-13" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Plataforma educativa y aula virtual</p>
+                            <p>¿Qué es una plataforma educativa y un aula virtual? Te explicamos de forma sencilla y clara.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SOS ¿Cómo tomar capturas de pantalla? [Versión celular y tableta 📲 -->
+<div class="modal fade" id="sos-14" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Cómo tomar capturas de pantalla? [Versión celular y tableta 📲</p>
+                            <p>Instrucciones para realizar una captura de pantalla en tu celular y tableta.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- aula ¿Qué es el módulo propedéutico? -->
+<div class="modal fade" id="aula-1" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Qué es el módulo propedéutico?</p>
+                            <p>Conoce qué es el módulo propedéutico y los temas que abordarás durante las 4 semanas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- aula ¿Cómo es estudiar en Prepa en Línea-SEP? -->
+<div class="modal fade" id="aula-2" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Cómo es estudiar en Prepa en Línea-SEP?</p>
+                            <p>No te espantes; es más fácil de lo que imaginas. Descubre cómo es estudiar en Prepa en Línea-SEP.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- aula ¿Cómo interactuar con mis compañeros y figuras educativas?? -->
+<div class="modal fade" id="aula-3" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> ¿Cómo interactuar con mis compañeros y figuras educativas?</p>
+                            <p>¿Sabes cómo dirigirte a tus compañeros y figuras educativas en un ambiente virtual? ¡No te pierdas este video!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- aula Mi primer día en el módulo propedéutico -->
+<div class="modal fade" id="aula-4" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5">S.O.S.</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 text-center">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="short" class="embed-responsive-item" src=""
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <p class="titulos-shorts"><i class="fa-solid fa-play"></i> Mi primer día en el módulo propedéutico</p>
+                            <p>¿Estás esperando el inicio del módulo propedéutico? Te contamos qué debes hacer desde el primer día.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="slick.js"></script>
     <script type="text/javascript">
         $(document).on('ready', function() {
-            $('.generales').slick({
-                dots: true,
+            $(document).on("click","#btn-generales",function() {
+                $('.generales').slick({
                 infinite: true,                
                 speed: 300,
                 lazyLoad: 'ondemand',
                 autoplay: true,
                 slidesToShow: 4,
-                slidesToScroll: 2
+                slidesToScroll: 4,
+                responsive: [
+                    {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        infinite: true,
+                        vertical: true
+                    }
+                    }
+                ]
+                });
+            });
+        });
+        $(document).on('ready', function() {
+            $(document).on("click","#btn-sos",function() {
+                $('.sos').slick({
+                    dots: true,
+                    infinite: true, 
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    autoplay: true,
+                    responsive: [
+                        {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                            infinite: true,
+                            vertical: true
+                            }
+                        }
+                    ]
+                });
+            });
+        });
+        $(document).on('ready', function() {
+            $(document).on("click","#btn-aulas",function() {
+                $('.aulas').slick({
+                    dots: true,
+                    infinite: true, 
+                    speed: 300,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    autoplay: false,
+                    responsive: [
+                        {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                            infinite: true,
+                            vertical: true
+                            }
+                        }
+                    ]
+                });
             });
         });
     </script>
+    <script>
+        jQuery(function(){  
+        
+            jQuery(document).ready(function(){ 
+                jQuery('.collapse').on('show.bs.collapse',function(){
+                jQuery('.collapse.show').collapse('toggle');
+                });
+            });
+        });
+    </script>
+    <script>
+        jQuery('.modal').on('show.bs.modal', function (event) {
+        jQuery(this).find('iframe').attr("src", jQuery(event.relatedTarget).data('url') );
+        });
+        
+        jQuery('.modal').on('hidden.bs.modal', function (e) {
+        jQuery(this).find('iframe').attr("src", "");
+        }); 
+    </script>	
+
+
+  
+
   </body>
 </html>

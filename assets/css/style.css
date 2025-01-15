@@ -109,6 +109,7 @@ header{
     font-size: 16px;
     color: #3E3D4C;
     font-weight: 400;
+    word-break: break-all;
 }
 .parrafo{
     font-size: 20px;

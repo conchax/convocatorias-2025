@@ -236,7 +236,7 @@ ul.timeline::before {
     width: 2px;
     height: 90px;
     z-index: 400;
-    bottom: 0px;
+    bottom: 0px;                                                        
 }
 #sigueprocesoC ul.timeline:last-child::after{
     content: ' ';

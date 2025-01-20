@@ -37,7 +37,7 @@ header{
 
 .bottom-play{
     color: #919191;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;    
 }
 .bottom-play:hover{
@@ -109,7 +109,7 @@ header{
     font-size: 16px;
     color: #3E3D4C;
     font-weight: 400;
-    word-break: break-all;
+    
 }
 .parrafo{
     font-size: 20px;
@@ -345,13 +345,14 @@ ul.timeline > li.enproceso:before{
     width: 370px;
     height: 600px;
 }
-iframe {
+
+/* iframe {
     border: none;
     line-height: 1;
     margin: 0;
     max-width: 100%;
     width: 100%;
-}
+} */
 @media (max-width: 575.98px) { 
     header{
         height: auto;
@@ -365,7 +366,7 @@ iframe {
         text-align: center;
     }
     .text-bottom {
-        width: 180px;
+        width: 200px;
     }
     .slick-dots{
         position: static;
@@ -379,5 +380,9 @@ iframe {
     .modal-body iframe.short{
         width: 250px;
         height: 390px;
+    }
+    iframe{
+        width: 300px;
+        height: 170px;
     }
  }

@@ -346,13 +346,15 @@ ul.timeline > li.enproceso:before{
     height: 600px;
 }
 
-/* iframe {
-    border: none;
-    line-height: 1;
-    margin: 0;
-    max-width: 100%;
+iframe.shortv{
+    height: 348px;
     width: 100%;
-} */
+}
+iframe.pdf{
+    width: 900px;
+    height: 600px;
+}
+
 @media (max-width: 575.98px) { 
     header{
         height: auto;
@@ -381,8 +383,16 @@ ul.timeline > li.enproceso:before{
         width: 250px;
         height: 390px;
     }
-    iframe{
-        width: 300px;
-        height: 170px;
+ 
+    iframe.shortv{
+        width: 225px!important;
+        height:400px;
+    }
+    iframe.pdf{
+        width: 320px;
+        height: 430px;
+    }
+    .infog{
+        width: 100%;
     }
  }

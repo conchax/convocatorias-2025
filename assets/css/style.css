@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #6353C6;
-    --color-secondary: #53A8B9;
+    --color-primary: #104775;
+    --color-secondary: #01C38E;
     --color-complementary: #CAFAF2;
 }
 body{
@@ -58,6 +58,22 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     
+}
+.bg-pausa{
+    background-image: url(../img/bg-pausa.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.bg-pausa img{
+    filter: grayscale(100%);
+}
+.prox{
+    font-size: 48px;
+    color: var(--color-primary);
+    font-weight: 700;
+    line-height: 48px;
 }
 .btn-cta{
     transition: all .4s ease-out; 

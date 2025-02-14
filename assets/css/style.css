@@ -1,7 +1,9 @@
 :root{
     --color-primary: #104775;
     --color-secondary: #01C38E;
-    --color-complementary: #CAFAF2;
+    --color-complementary: #FBFDFC;
+    --color-text:#142D46;
+    --bg-fondo:#FBFDFC;
 }
 body{
 font-family: "Noto Sans", serif;
@@ -10,7 +12,7 @@ font-weight: 400;
 font-style: normal;
 font-variation-settings:"wdth" 100;
 background-color: #FAFAFA;
-color: #3E3D4C;
+color: var(--color-text);
 }
 
 h1, .text-titulo{

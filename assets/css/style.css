@@ -179,6 +179,9 @@ hr.convo{
     margin: 0 20px;
     width: 220px;
 }
+.modal .text-bottom{
+    width: 185px;
+}
 
 .btn-labeled:hover{
     border: 2px solid var(--color-secondary);
@@ -387,6 +390,9 @@ iframe.pdf{
     }
     .text-bottom {
         width: 200px;
+    }
+    .modal .text-bottom{
+        width: 185px;
     }
     .slick-dots{
         position: static;

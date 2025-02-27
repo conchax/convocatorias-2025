@@ -1,9 +1,9 @@
 :root{
-    --color-primary: #104775;
-    --color-secondary: #01C38E;
+    --color-primary: #3AA8B7;
+    --color-secondary: #E5922D;
     --color-complementary: #FBFDFC;
-    --color-text:#142D46;
-    --bg-fondo:#FBFDFC;
+    --color-text:#362F2D;
+    --bg-fondo:#FEF1EE;
 }
 body{
 font-family: "Noto Sans", serif;
@@ -11,7 +11,7 @@ font-optical-sizing: auto;
 font-weight: 400;
 font-style: normal;
 font-variation-settings:"wdth" 100;
-background-color: #FAFAFA;
+background-color: var(--bg-fondo);
 color: var(--color-text);
 }
 

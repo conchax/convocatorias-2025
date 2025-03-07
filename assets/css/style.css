@@ -394,6 +394,9 @@ iframe.pdf{
     .modal .text-bottom{
         width: 155px;
     }
+    .modal h1.modal-title{
+        font-size: 22px!important;
+    }
     .slick-dots{
         position: static;
     }

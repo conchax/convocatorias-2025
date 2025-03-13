@@ -55,7 +55,7 @@ header{
 }
 
 .bg-cta{
-    background-image: url(../img/bg-cta.png);
+    background-image: url(../img/bg-cta-76.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -376,6 +376,37 @@ iframe.pdf{
     height: 600px;
 }
 
+.btn-sesiones{
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+.btn-sesiones:hover svg path{
+    fill: var(--color-secondary);
+
+}
+
+.btn-sesiones svg{
+    vertical-align: baseline;
+}
+
+.btn-sesiones svg:last-child{
+ vertical-align: super;
+}
+.btn-sesiones span.name{
+    display: inline-block;
+    color: var(--color-primary);
+    font-size: 18px;
+}
+.btn-sesiones:hover span.name{
+    color: var(--color-secondary);
+}
+
+ .btn-sesiones span.date{
+    color: #3E3D4C;
+    font-size: 14px;
+    border-top: 1px solid var(--color-primary);
+ }
 @media (max-width: 575.98px) { 
     header{
         height: auto;

@@ -475,7 +475,7 @@ $secC = 1;
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                           <a class="btn btn-labeled" href="more/PL-SEP_Convo2024-G73-guia-deregistro.pdf" download="PL-SEP_Convo2025-G73-guia_registro.pdf" onclick="conteo_recurso(21)">
+                           <a class="btn btn-labeled" href="more/PL-SEP_Convo2024-G73-guia-deregistro.pdf" download="PL-SEP_Convo2025-G73-guia_registro.pdf" onclick="conteo_recurso(16)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -503,7 +503,7 @@ $secC = 1;
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-74/guia_aspirante_g74.pdf" download="PL-SEP_Convo2025-G74-guia_registro.pdf" onclick="conteo_recurso(26)">
+                            <a class="btn btn-labeled" href="kit-74/guia_aspirante_g74.pdf" download="PL-SEP_Convo2025-G74-guia_registro.pdf" onclick="conteo_recurso(21)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -531,7 +531,7 @@ $secC = 1;
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-75/guia_aspirante_g75.pdf" download="PL-SEP_Convo2025-G75-guia_registro.pdf" onclick="conteo_recurso(16)">
+                            <a class="btn btn-labeled" href="kit-75/guia_aspirante_g75.pdf" download="PL-SEP_Convo2025-G75-guia_registro.pdf" onclick="conteo_recurso(26)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -564,20 +564,20 @@ $secC = 1;
                                     <p>del 2 al 13 de diciembre</p>
                                 </li>
                                 <li>
-                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(17)">Obtén tus claves de acceso</a>
+                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 18 al 22 de diciembre</p>
                                 </li>
                                 <li >
-                                    <a class="btn btn-timeline "href="#" onclick="conteo_recurso(18)">Cursa el módulo propedéutico</a>
+                                    <a class="btn btn-timeline "href="#" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
                                     <p>del 13 de enero <br>
                                         al 9 de febrero</p>
                                 </li>
                                 <li>
-                                    <a class="btn btn-timeline" href="#" onclick="conteo_recurso(19)">Consulta tus resultados e inscríbete</a>
+                                    <a class="btn btn-timeline" href="#" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
                                     <p>del 14 al 26 de febrero</p>
                                 </li>
                                 <li class="last enproceso">
-                                    <a class="btn btn-timeline activo"  data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(20)">Cursa módulo 1</a>
+                                    <a class="btn btn-timeline activo"  data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(15,<?php echo $secA; ?>)">Cursa módulo 1</a>
                                     <p>del 3 al 30 de marzo</p>
                                 </li>
                             </ul>
@@ -610,20 +610,20 @@ $secC = 1;
                                     <p>del 20 al 31 de enero</p>
                                 </li>
                                 <li >
-                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(22)">Obtén tus claves de acceso</a>
+                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 5 al 9 de febrero</p>
                                 </li>
                                 <li >
-                                    <a class="btn btn-timeline" href="#" onclick="conteo_recurso(23)">Cursa el módulo propedéutico</a>
+                                    <a class="btn btn-timeline" href="#" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
                                     <p>del 10 de febrero <br>
                                         al 9 de marzo</p>
                                 </li>
                                 <li class="enproceso">
-                                    <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_parent" onclick="conteo_recurso(24)">Consulta tus resultados e inscríbete</a>
+                                    <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_parent" onclick="conteo_recurso(19,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
                                     <p>del 14 al 26 de marzo</p>
                                 </li>
                                 <li>
-                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(25)">Cursa el módulo 1</a>
+                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(20,<?php echo $secB; ?>)">Cursa el módulo 1</a>
                                     <p>del 31 de marzo <br>
                                         al 4 de mayo</p>
                                 </li>
@@ -657,20 +657,20 @@ $secC = 1;
                                     <p>del 17 al 28 de febrero</p>
                                 </li>
                                 <li>
-                                    <a class="btn btn-timeline " href="#"  onclick="conteo_recurso(12,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
+                                    <a class="btn btn-timeline " href="#"  onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 5 al 9 de marzo</p>
                                 </li>
                                 <li  class="enproceso">
-                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
                                     <p>del 10 de marzo <br>
                                         al 6 de abril</p>
                                 </li>
                                 <li> <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
-                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(14,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                                     <p>del 11 al 30 de abril</p>
                                 </li>
                                 <li  class=""><!-- data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" -->
-                                    <a class="btn btn-timeline" onclick="conteo_recurso(15,<?php echo $secC; ?>)">Cursa módulo 1</a>
+                                    <a class="btn btn-timeline" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa módulo 1</a>
                                     <p>del 5 de mayo <br>
                                         al 1 de junio</p>
                                 </li>

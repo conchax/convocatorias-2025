@@ -1,3 +1,11 @@
+<?php
+// VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
+// CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
+$secA = 0;
+$secB = 0;
+$secC = 1;
+?>
+
 <!doctype html>
 <html lang="es">
   <head>
@@ -62,7 +70,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 mb-4">
-                    <h1 class="text-center mb-3">Registro para aspirantes</h1>                    
+                    <h1 class="text-center mb-3">Registro para aspirantes</h1>
                 </div>
             </div>
         </div>
@@ -78,7 +86,7 @@
                             <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1)"><img class="btn-cta" src="assets/img/btn-cta76.png" alt="btn"></a>
                         </div>
                         <p class="fecha mb-4">del 17 al 28 de marzo</p>
-                        <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
+                        <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                        
                         <div class="row justify-content-center">
                             <div class="col-12">
@@ -141,22 +149,22 @@
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/G73.png" alt="convocatoria 73">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/identidad-G74.png" height="140" alt="convocatoria 74">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/G75.png" height="140" alt="convocatoria 75">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
                     </div>
                 </div>
             </div>
@@ -254,7 +262,7 @@
             <div class="row justify-content-center mt-4">
                 <div class="col-12 col-md-6 text-md-end text-center">
                     <div class="pe-md-5 mb-4">
-                        <a class="btn btn-labeled " href="difusion-y-vinculacion-digital.html" target="_blank" onclick="conteo_recurso(5)">
+                        <a class="btn btn-labeled " href="difusion-y-vinculacion-digital.php" target="_blank" onclick="conteo_recurso(5)">
                             <span class="btn-label"><i class="fa-solid fa-bullhorn iconol"></i></span> <div class="text-bottom">Difusión y vinculación</div> 
                         </a>
                     </div>
@@ -456,34 +464,6 @@
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5">Guía del aspirante</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-75/guia_aspirante_g75.pdf"></iframe>
-                    </div>
-            
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-75/guia_aspirante_g75.pdf" download="PL-SEP_Convo2025-G75-guia_registro.pdf" onclick="conteo_recurso(16)">
-                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
-                            </a>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
-        </div>
-    </div>
-    
-     <!-- Modal Guia B-->
-    <div class="modal fade" id="guiaB" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
               <h1 class="modal-title fs-5">Guía de registro</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -507,8 +487,8 @@
         </div>
     </div>    
 
-      <!-- Modal Guia C-->
-    <div class="modal fade" id="guiaC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+      <!-- Modal Guia B-->
+    <div class="modal fade" id="guiaB" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div class="modal-content">
             <div class="modal-header">
@@ -535,55 +515,37 @@
         </div>
     </div>
 
-  <!-- Modal sigueprocesoA -->
-  <div class="modal fade" id="sigueprocesoA" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-10">
-                        <div class="text-center"> <img src="assets/img/G75.png" height="140" alt="G75"></div>
-                        
-                        <ul class="timeline text-center">
-                            <li>
-                                <a class="btn btn-timeline" >Regístrate</a>
-                                <p>del 17 al 28 de febrero</p>
-                            </li>
-                            <li>
-                                <a class="btn btn-timeline " href="#"  onclick="conteo_recurso(12)">Obtén tus claves de acceso</a>
-                                <p>del 5 al 9 de marzo</p>
-                            </li>
-                            <li  class="enproceso">
-                                <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13)">Cursa el módulo propedéutico</a>
-                                <p>del 10 de marzo <br>
-                                    al 6 de abril</p>
-                            </li>
-                            <li> <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
-                                <a class="btn btn-timeline " href="#" onclick="conteo_recurso(14)">Consulta tus resultados e inscríbete</a>
-                                <p>del 11 al 30 de abril</p>
-                            </li>
-                            <li  class=""><!-- data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" -->
-                                <a class="btn btn-timeline" href="#" onclick="conteo_recurso(15)">Cursa módulo 1</a>
-                                <p>del 5 de mayo <br>
-                                    al 1 de junio</p>
-                            </li>
-                        </ul>
+         <!-- Modal Guia C-->  
+    <div class="modal fade" id="guiaC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Guía del aspirante</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container fluid">
+                    <div class="row justify-content-center">
+                        <iframe class="pdf" src="kit-75/guia_aspirante_g75.pdf"></iframe>
+                    </div>
+            
+                    <div class="row justify-content-center mt-4">
+                        <div class="col-12 col-md-11 text-center">
+                            <a class="btn btn-labeled" href="kit-75/guia_aspirante_g75.pdf" download="PL-SEP_Convo2025-G75-guia_registro.pdf" onclick="conteo_recurso(16)">
+                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
+                            </a>
+                            
+                        </div>
                     </div>
                 </div>
-            </div>                                                                                                                                  
+            </div>
+          </div>
         </div>
-        
-      </div>
     </div>
-  </div> 
+   
   
-    <!-- Modal sigueprocesoB -->
-    <div class="modal fade" id="sigueprocesoB" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <!-- Modal sigueprocesoA -->
+    <div class="modal fade" id="sigueprocesoA" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
           <div class="modal-content">
             <div class="modal-header">
@@ -628,51 +590,98 @@
         </div>
     </div>
     
-  <!-- Modal sigueprocesoC -->
-    <div class="modal fade" id="sigueprocesoC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-md-10">
-                        <div class="text-center"> <img src="assets/img/identidad-G74.png" height="140" alt="G74"></div>
-                        
-                        <ul class="timeline text-center">
-                            <li>
-                                <a class="btn btn-timeline " href="#">Regístrate</a>
-                                <p>del 20 al 31 de enero</p>
-                            </li>
-                            <li >
-                                <a class="btn btn-timeline " href="#" onclick="conteo_recurso(22)">Obtén tus claves de acceso</a>
-                                <p>del 5 al 9 de febrero</p>
-                            </li>
-                            <li >
-                                <a class="btn btn-timeline" href="#" onclick="conteo_recurso(23)">Cursa el módulo propedéutico</a>
-                                <p>del 10 de febrero <br>
-                                    al 9 de marzo</p>
-                            </li>
-                            <li class="enproceso">
-                                <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_parent" onclick="conteo_recurso(24)">Consulta tus resultados e inscríbete</a>
-                                <p>del 14 al 26 de marzo</p>
-                            </li>
-                            <li>
-                                <a class="btn btn-timeline " href="#" onclick="conteo_recurso(25)">Cursa el módulo 1</a>
-                                <p>del 31 de marzo <br>
-                                    al 4 de mayo</p>
-                            </li>
-                        </ul>
+  <!-- Modal sigueprocesoB -->
+    <div class="modal fade" id="sigueprocesoB" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10">
+                            <div class="text-center"> <img src="assets/img/identidad-G74.png" height="140" alt="G74"></div>
+                            
+                            <ul class="timeline text-center">
+                                <li>
+                                    <a class="btn btn-timeline " href="#">Regístrate</a>
+                                    <p>del 20 al 31 de enero</p>
+                                </li>
+                                <li >
+                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(22)">Obtén tus claves de acceso</a>
+                                    <p>del 5 al 9 de febrero</p>
+                                </li>
+                                <li >
+                                    <a class="btn btn-timeline" href="#" onclick="conteo_recurso(23)">Cursa el módulo propedéutico</a>
+                                    <p>del 10 de febrero <br>
+                                        al 9 de marzo</p>
+                                </li>
+                                <li class="enproceso">
+                                    <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_parent" onclick="conteo_recurso(24)">Consulta tus resultados e inscríbete</a>
+                                    <p>del 14 al 26 de marzo</p>
+                                </li>
+                                <li>
+                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(25)">Cursa el módulo 1</a>
+                                    <p>del 31 de marzo <br>
+                                        al 4 de mayo</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-            </div>                                                                                                                                  
+                </div>                                                                                                                                  
+            </div>
+            
         </div>
-        
-      </div>
+        </div>
     </div>
+
+    <!-- Modal sigueprocesoC -->
+    <div class="modal fade" id="sigueprocesoC" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-md-10">
+                            <div class="text-center"> <img src="assets/img/G75.png" height="140" alt="G75"></div>
+                            
+                            <ul class="timeline text-center">
+                                <li>
+                                    <a class="btn btn-timeline" >Regístrate</a>
+                                    <p>del 17 al 28 de febrero</p>
+                                </li>
+                                <li>
+                                    <a class="btn btn-timeline " href="#"  onclick="conteo_recurso(12,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
+                                    <p>del 5 al 9 de marzo</p>
+                                </li>
+                                <li  class="enproceso">
+                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                                    <p>del 10 de marzo <br>
+                                        al 6 de abril</p>
+                                </li>
+                                <li> <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
+                                    <a class="btn btn-timeline " href="#" onclick="conteo_recurso(14,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                                    <p>del 11 al 30 de abril</p>
+                                </li>
+                                <li  class=""><!-- data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" -->
+                                    <a class="btn btn-timeline" onclick="conteo_recurso(15,<?php echo $secC; ?>)">Cursa módulo 1</a>
+                                    <p>del 5 de mayo <br>
+                                        al 1 de junio</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>                                                                                                                                  
+            </div>
+            
+        </div>
+        </div>
     </div>
 
     <!-- Modal como como me registro -->

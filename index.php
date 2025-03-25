@@ -4,6 +4,7 @@
 $secA = 0;
 $secB = 0;
 $secC = 1;
+$convoActivo = 2;
 ?>
 
 <!doctype html>
@@ -83,7 +84,7 @@ $secC = 1;
                     </div>
                     <div class="col-12 col-md-6 text-center">
                         <div class="mb-4 ">
-                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1)"><img class="btn-cta" src="assets/img/btn-cta76.png" alt="btn"></a>
+                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta76.png" alt="btn"></a>
                         </div>
                         <p class="fecha mb-4">del 17 al 28 de marzo</p>
                         <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>

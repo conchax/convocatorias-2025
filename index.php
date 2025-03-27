@@ -56,7 +56,7 @@ $convoActivo = 2;
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img class="logo-convocatoria" src="assets/img/logo76.svg" alt="logo">
+                    <img class="logo-convocatoria" src="assets/img/logo77.svg" alt="logo">
                 </div>
                 <div class="col col-md-9">
                     <div class="des">
@@ -76,11 +76,11 @@ $convoActivo = 2;
             </div>
         </div>
        
-        <div class="bg-cta">
+        <div class="bg-cta d-none">
             <div class="container">
                 <div class="row justify-content-center items-aling-center">
                     <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
-                        <img src="assets/img/identidad-G76.png" alt="G76">
+                        <img src="assets/img/identidad-G77.png" alt="G77">
                     </div>
                     <div class="col-12 col-md-6 text-center">
                         <div class="mb-4 ">
@@ -103,6 +103,29 @@ $convoActivo = 2;
                 </div>
             </div>
             
+        </div>
+
+
+        <div class="bg-pausa ">
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
+                        <img src="assets/img/identidad-G77.png" alt="G77">
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="prox mb-4">
+                            Próxima convocatoria
+                        </div>
+                        <p class="fecha mb-4">del 21 de abril al 2 de mayo</p>
+                    </div>
+                    <div class="col-12 col-md-3">
+                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
+                        <p><a class="btn-opciones d-none" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
+                        <p><a class="btn-opciones d-none            " href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
+                    </div>
+    
+                </div>
+            </div>
         </div>
 
         <div class="container">
@@ -146,14 +169,6 @@ $convoActivo = 2;
         <div class="container">
             <div class="row">
                 
-                
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card-convo">
-                        <img src="assets/img/G73.png" alt="convocatoria 73">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
-                    </div>
-                </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/identidad-G74.png" height="140" alt="convocatoria 74">
@@ -168,6 +183,14 @@ $convoActivo = 2;
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
                     </div>
                 </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card-convo">
+                        <img src="assets/img/identidad-G76.png" height="140" alt="convocatoria 76">
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía de registro</a></p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -261,9 +284,9 @@ $convoActivo = 2;
         </div>
         <div class="container">
             <div class="row justify-content-center mt-4">
-                <div class="col-12 col-md-6 text-md-end text-center">
+                <div class="col-12 col-md-6 text-md-end text-center d-none">
                     <div class="pe-md-5 mb-4">
-                        <a class="btn btn-labeled " href="difusion-y-vinculacion-digital.php" target="_blank" onclick="conteo_recurso(5)">
+                        <a class="btn btn-labeled" href="difusion-y-vinculacion-digital.php" target="_blank" onclick="conteo_recurso(5)">
                             <span class="btn-label"><i class="fa-solid fa-bullhorn iconol"></i></span> <div class="text-bottom">Difusión y vinculación</div> 
                         </a>
                     </div>
@@ -557,29 +580,29 @@ $convoActivo = 2;
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-10">
-                            <div class="text-center"> <img src="assets/img/G73.png" alt="G73"></div>
+                            <div class="text-center"> <img src="assets/img/identidad-G76.png" height="140" alt="G76"></div>
                             
                             <ul class="timeline text-center">
                                 <li>
                                     <a class="btn btn-timeline disabled" href="#">Regístrate</a>
-                                    <p>del 2 al 13 de diciembre</p>
+                                    <p>del 17 al 28 de marzo</p>
                                 </li>
                                 <li>
                                     <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
-                                    <p>del 18 al 22 de diciembre</p>
+                                    <p>del 2 al 6 de abril</p>
                                 </li>
                                 <li >
                                     <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
-                                    <p>del 13 de enero <br>
-                                        al 9 de febrero</p>
+                                    <p>del 7 de abril <br>
+                                        al 11 de mayo</p>
                                 </li>
                                 <li>
                                     <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
-                                    <p>del 14 al 26 de febrero</p>
+                                    <p>del 16 al 28 de mayo</p>
                                 </li>
-                                <li class="last enproceso">
-                                    <a class="btn btn-timeline activo"  data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(15,<?php echo $secA; ?>)">Cursa módulo 1</a>
-                                    <p>del 3 al 30 de marzo</p>
+                                <li class="last">
+                                    <a class="btn btn-timeline disabled"  data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(15,<?php echo $secA; ?>)">Cursa módulo 1</a>
+                                    <p>del 2 al 29 de junio </p>
                                 </li>
                             </ul>
                         </div>

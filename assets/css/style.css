@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #9E7254;
-    --color-secondary: #67A92F;
+    --color-primary: #67A92F;
+    --color-secondary: #9E7254;
     --color-complementary: #FBFDFC;
     --color-text:#1C2617;
     --bg-fondo:#F4F8E8;
@@ -14,7 +14,9 @@ font-variation-settings:"wdth" 100;
 background-color: var(--bg-fondo);
 color: var(--color-text);
 }
-
+.modal-content{
+    background-color: var(--bg-fondo);
+}
 h1, .text-titulo{
     font-size: 40px;
     font-weight: 600;
@@ -239,7 +241,7 @@ ul.timeline::before {
 
 #sigueprocesoA ul.timeline:last-child::after{
     content: ' ';
-    background:#fff;
+    background:var(--bg-fondo);
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -250,7 +252,7 @@ ul.timeline::before {
 }
 #sigueprocesoB ul.timeline:last-child::after{
     content: ' ';
-    background:#fff;
+    background:var(--bg-fondo);
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -261,7 +263,7 @@ ul.timeline::before {
 }
 #sigueprocesoC ul.timeline:last-child::after{
     content: ' ';
-    background:#fff;
+    background:var(--bg-fondo);
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -277,7 +279,7 @@ ul.timeline > li {
 }
 ul.timeline > li:before {
     content: ' ';
-    background: white;
+    background: var(--bg-fondo);
     display: inline-block;
     position: absolute;
     border-radius: 50%;

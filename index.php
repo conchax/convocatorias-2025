@@ -2,17 +2,17 @@
 // VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
 // CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
 $secA = 0;
-$secB = 0;
-$secC = 1;
-$convoActivo = 2;
+$secB = 1;
+$secC = 2;
+$convoActivo = 3;
 
-if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/¡?Bds5f48glq78")
+/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/¡?Bds5f48glq78")
 {
 header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
 header('HTTP/1.0 401 Unauthorized');
 echo 'Authorization Required To Server.';
 exit;
-}
+} */
 ?>
 
 <!doctype html>

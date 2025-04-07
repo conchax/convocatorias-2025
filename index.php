@@ -594,12 +594,12 @@ exit;
                                 <li>
                                     <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 </li>
-                                <li class="enproceso">
-                                    <a class="btn btn-timeline activo" href="#" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
+                                <li >
+                                    <a class="btn btn-timeline disabled" href="#" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 2 al 6 de abril</p>
                                 </li>
-                                <li >
-                                    <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
+                                <li class="enproceso" >
+                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad"  onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
                                     <p>del 7 de abril <br>
                                         al 11 de mayo</p>
                                 </li>

@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img class="logo-convocatoria" src="assets/img/logo76.svg" alt="logo">
+                    <img class="logo-convocatoria" src="assets/img/logo77.svg" alt="logo">
                 </div>
                 <div class="col col-md-9">
                    
@@ -95,7 +95,7 @@
         <div class="row justify-content-center">
             <div class="col-12-col-md-6 mb-4">
 
-                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>76</b></span> inicia el 17 y cierra el 28 de marzo.</p>
+                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>77</b></span> inicia el 21 de abril al 2 de mayo.</p>
             </div>
         </div>
     </div>
@@ -139,13 +139,13 @@
                     </a>
                     <div class="card-copy-text rc">
                         <div class="text-center mb-3">Video spot</div>
-                        <p class="parrafo-s" id="videospot">https://youtu.be/3H0iTQKiAGY</p>
+                        <p class="parrafo-s" id="videospot">https://www.youtube.com/watch?v=YrBDr0gdNjw</p>
                         <a class="btn bottom-copy" id="buttonVideospot" onclick="conteo_recurso(34)"><i class="fa-regular fa-copy"></i> Copiar enlace</a>
                     </div>
 
                     <div class="card-copy-text rc">
                         <div class="text-center mb-3">Copy sugerido</div>
-                        <p class="parrafo-s text-break" id="copy">¡Prepárate para un futuro exitoso! Regístrate del 17 al 28 de marzo en https://prepaenlinea.sep.gob.mx/convocatorias-2025/</p>
+                        <p class="parrafo-s text-break" id="copy">¡Prepárate para un futuro exitoso! Regístrate del 21 de abril al 2 de mayo en https://prepaenlinea.sep.gob.mx/convocatorias-2025/</p>
                         <a class="btn bottom-copy" id="buttoncopy" onclick="conteo_recurso(35)"><i class="fa-regular fa-copy"></i> Copiar copy</a>
                     </div>
 
@@ -441,13 +441,13 @@
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-76/bases_g76.pdf" ></iframe>
+                        <iframe class="pdf" src="kit-77/bases_g77.pdf" ></iframe>
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>17 de marzo </b></p>
-                            <a class="btn btn-labeled" href="kit-76/bases_g76.pdf" download="PL-SEP_Convo2025-G76-bases.pdf" onclick="conteo_recurso(28)">
+                            <p>Fecha sugerida de publicación <b>21 de abril </b></p>
+                            <a class="btn btn-labeled" href="kit-77/bases_g77.pdf" download="PL-SEP_Convo2025-G77-bases.pdf" onclick="conteo_recurso(28)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -472,14 +472,14 @@
                 <div class="container fluid">
                     <div class="row justify-content-center">
                         <div class="col-12-col-md-8 text-center">
-                            <img class="infog" src="kit-76/infografia_g76.png" alt="infografia">
+                            <img class="infog" src="kit-77/infografia_g77.png" alt="infografia">
                         </div>
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>17 de marzo </b></p>
-                            <a class="btn btn-labeled" href="kit-76/infografia_g76.png" download="PL-SEP_Convo2025-G76-infografia.png" onclick="conteo_recurso(30)">
+                            <p>Fecha sugerida de publicación <b>21 de abril </b></p>
+                            <a class="btn btn-labeled" href="kit-77/infografia_g77.png" download="PL-SEP_Convo2025-G77-infografia.png" onclick="conteo_recurso(30)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -503,16 +503,15 @@
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-76/guia_aspirante_g76.pdf" ></iframe>
+                        <iframe class="pdf" src="kit-77/guia_aspirante_g77.pdf" ></iframe>
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>17 de marzo </b></p>
-                            <a class="btn btn-labeled" href="kit-76/guia_aspirante_g76.pdf" download="PL-SEP_Convo2025-G76-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
+                            <p>Fecha sugerida de publicación <b>21 de abril </b></p>
+                            <a class="btn btn-labeled" href="kit-77/guia_aspirante_g77.pdf" download="PL-SEP_Convo2025-G77-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
-                            
                         </div>
                     </div>
                 </div>
@@ -533,15 +532,15 @@
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-76/P_FB.png" alt="Portada Facebook">Facebook</div>
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-76/P_X.png" alt="Portada X">x</div>
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" width="300" src="kit-76/P_Spotify.png" alt="Portada spotify">Spotify</div>
+                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-77/P_FB.png" alt="Portada Facebook">Facebook</div>
+                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-77/P_X.png" alt="Portada X">x</div>
+                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" width="300" src="kit-77/P_Spotify.png" alt="Portada spotify">Spotify</div>
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>17 de marzo </b></p>
-                            <a class="btn btn-labeled" href="kit-76/portadas_RRSS_g76.zip" download="PL-SEP_Convo2025-G76-portadas_rrss.zip" onclick="conteo_recurso(31)">
+                            <p>Fecha sugerida de publicación <b>21 de abril </b></p>
+                            <a class="btn btn-labeled" href="kit-77/portadas_RRSS_g77.zip" download="PL-SEP_Convo2025-G77-portadas_rrss.zip" onclick="conteo_recurso(31)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -565,16 +564,16 @@
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-76/banner_portal_registrate.png" alt=" Registrte">Fecha sugerida de publicación <b>17 de marzo </b></div>
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-76/banner_portal_cerrada.png" alt="Cerrada ">Fecha sugerida de publicación <b>1 de abril </b></div>
-                        <div class="col-12 col-md-6 text-center d-none"><img class="img-fluid" src="kit-76/banner_portal_proxima.png" alt="Proxima ">Fecha sugerida de publicación <b>10 de marzo </b></div>
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-76/banner_portal_resultados.png" alt="Resultados ">Fecha sugerida de publicación <b>11 de mayo </b></div>
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-76/banner_portal_video-spot.png" alt="Video">Fecha sugerida de publicación <b>17 de abril </b></div>
+                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-77/banner_portal_registrate.png" alt=" Registrte">Fecha sugerida de publicación <b>21 de abril </b></div>
+                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-77/banner_portal_cerrada.png" alt="Cerrada ">Fecha sugerida de publicación <b>2 de mayo </b></div>
+                        
+                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-77/banner_portal_resultados.png" alt="Resultados ">Fecha sugerida de publicación <b>13 de junio </b></div>
+                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-77/banner_portal_video-spot.png" alt="Video">Fecha sugerida de publicación <b>21 de abril </b></div>
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-76/banners_portal_g76.zip" download="PL-SEP_Convo2025-G76-banners-portal.zip" onclick="conteo_recurso(32)">
+                            <a class="btn btn-labeled" href="kit-77/banners_portal_g77.zip" download="PL-SEP_Convo2025-G77-banners-portal.zip" onclick="conteo_recurso(32)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -598,15 +597,15 @@
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-76/cartel_horizontal.png" alt="Portada Facebook">Cartel horizontal</div>
-                        <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-76/cartel_vertical.png" alt="Portada X">Cartel vertical</div>
+                        <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-77/cartel_horizontal.png" alt="Portada Facebook">Cartel horizontal</div>
+                        <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-77/cartel_vertical.png" alt="Portada X">Cartel vertical</div>
                         
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>17 de marzo </b></p>
-                            <a class="btn btn-labeled" href="kit-76/carteles_g76.zip" download="PL-SEP_Convo2025-G76-cartel.zip" onclick="conteo_recurso(33)">
+                            <p>Fecha sugerida de publicación <b>21 de abril </b></p>
+                            <a class="btn btn-labeled" href="kit-77/carteles_g77.zip" download="PL-SEP_Convo2025-G77-cartel.zip" onclick="conteo_recurso(33)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             

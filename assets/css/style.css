@@ -14,9 +14,7 @@ font-variation-settings:"wdth" 100;
 background-color: var(--bg-fondo);
 color: var(--color-text);
 }
-.modal-content{
-    background-color: var(--bg-fondo);
-}
+
 h1, .text-titulo{
     font-size: 40px;
     font-weight: 600;
@@ -241,7 +239,7 @@ ul.timeline::before {
 
 #sigueprocesoA ul.timeline:last-child::after{
     content: ' ';
-    background:var(--bg-fondo);
+    background:#fff;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -252,7 +250,7 @@ ul.timeline::before {
 }
 #sigueprocesoB ul.timeline:last-child::after{
     content: ' ';
-    background:var(--bg-fondo);
+    background:#fff;
     display: inline-block;
     position: absolute;
     left: 29px;
@@ -263,7 +261,7 @@ ul.timeline::before {
 }
 #sigueprocesoC ul.timeline:last-child::after{
     content: ' ';
-    background:var(--bg-fondo);
+    background:#fff;
     display: inline-block;
     position: absolute;
     left: 29px;

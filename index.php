@@ -6,7 +6,7 @@ $secB = 1;
 $secC = 2;
 $convoActivo = 3;
 
-/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/¡?Bds5f48glq78")
+/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/jkhf639820%&#$")
 {
 header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
 header('HTTP/1.0 401 Unauthorized');
@@ -128,8 +128,8 @@ exit;
                     </div>
                     <div class="col-12 col-md-3">
                         <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
-                        <p><a class="btn-opciones d-none" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
-                        <p><a class="btn-opciones d-none            " href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
+                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
+                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
                     </div>
     
                 </div>
@@ -292,15 +292,15 @@ exit;
         </div>
         <div class="container">
             <div class="row justify-content-center mt-4">
-                <div class="col-12 col-md-6 text-md-end text-center d-none">
+                <div class="col-12 col-md-6 text-md-end text-center">
                     <div class="pe-md-5 mb-4">
                         <a class="btn btn-labeled" href="difusion-y-vinculacion-digital.php" target="_blank" onclick="conteo_recurso(5)">
                             <span class="btn-label"><i class="fa-solid fa-bullhorn iconol"></i></span> <div class="text-bottom">Difusión y vinculación</div> 
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6  text-center">  <!-- text-md-start -->
-                    <div class=""><!-- ps-md-5 -->
+                <div class="col-12 col-md-6 text-md-start text-center">  <!--  -->
+                    <div class="ps-md-5"><!--  -->
                         <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" onclick="conteo_recurso(7)">
                             <span class="btn-label">
                                 <svg class="iconol" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -444,12 +444,12 @@ exit;
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-76/bases_g76.pdf" ></iframe>
+                        <iframe class="pdf" src="kit-77/bases_g77.pdf" ></iframe>
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-76/bases_g76.pdf" download="PL-SEP_Convo2025-G76-bases.pdf" onclick="conteo_recurso(3)">
+                            <a class="btn btn-labeled" href="kit-77/bases_g77.pdf" download="PL-SEP_Convo2025-G77-bases.pdf" onclick="conteo_recurso(3)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -463,7 +463,7 @@ exit;
     </div>
 
      <!-- Modal Guia -->
-     <div class="modal fade" id="guia" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+     <div class="modal fade" id="guia" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true"> 
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
           <div class="modal-content">
             <div class="modal-header">
@@ -473,12 +473,11 @@ exit;
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-76/guia_aspirante_g76.pdf" ></iframe>
+                        <iframe class="pdf" src="kit-77/guia_aspirante_g77.pdf" ></iframe>
                     </div>
-            
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-76/guia_aspirante_g76.pdf" download="PL-SEP_Convo2025-G76-guia_aspirante.pdf" onclick="conteo_recurso(4)">
+                            <a class="btn btn-labeled" href="kit-77/guia_aspirante_g77.pdf" download="PL-SEP_Convo2025-G77-guia_aspirante.pdf" onclick="conteo_recurso(4)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -685,8 +684,8 @@ exit;
                                     <a class="btn btn-timeline disabled" href="#"  onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 5 al 9 de marzo</p>
                                 </li>
-                                <li  class="enproceso">
-                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                                <li>
+                                    <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
                                     <p>del 10 de marzo <br>
                                         al 6 de abril</p>
                                 </li>

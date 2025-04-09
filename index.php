@@ -6,13 +6,13 @@ $secB = 1;
 $secC = 2;
 $convoActivo = 3;
 
-/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/jkhf639820%&#$")
+if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/$%lf$229820%&#$")
 {
 header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
 header('HTTP/1.0 401 Unauthorized');
 echo 'Authorization Required To Server.';
 exit;
-} */
+}
 ?>
 
 <!doctype html>
@@ -84,7 +84,7 @@ exit;
             </div>
         </div>
        
-        <div class="bg-cta d-none">
+        <div class="bg-cta">
             <div class="container">
                 <div class="row justify-content-center items-aling-center">
                     <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
@@ -92,9 +92,9 @@ exit;
                     </div>
                     <div class="col-12 col-md-6 text-center">
                         <div class="mb-4 ">
-                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta76.png" alt="btn"></a>
+                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta77.png" alt="btn"></a>
                         </div>
-                        <p class="fecha mb-4">del 17 al 28 de marzo</p>
+                        <p class="fecha mb-4">del 21 de abril al 2 de mayo</p>
                         <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                        
                         <div class="row justify-content-center">
@@ -114,7 +114,7 @@ exit;
         </div>
 
 
-        <div class="bg-pausa ">
+        <div class="bg-pausa d-none">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
@@ -689,8 +689,8 @@ exit;
                                     <p>del 10 de marzo <br>
                                         al 6 de abril</p>
                                 </li>
-                                <li> <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
-                                    <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                                <li class="enproceso"> <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
+                                    <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                                     <p>del 11 al 30 de abril</p>
                                 </li>
                                 <li><!-- data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" -->

@@ -590,7 +590,7 @@ exit;
                             <div class="text-center"> <img src="assets/img/G76.png" height="140" alt="G76"></div>
                             
                             <ul class="timeline text-center">
-                                <li>
+                                <li class="d-none">
                                     <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 </li>
                                 <li >

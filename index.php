@@ -64,7 +64,7 @@ exit;
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img class="logo-convocatoria" src="assets/img/logo77.svg" alt="logo">
+                    <img class="logo-convocatoria" src="assets/img/logo-general.svg" alt="logo">
                 </div>
                 <div class="col col-md-9">
                     <div class="des">
@@ -84,47 +84,20 @@ exit;
             </div>
         </div>
        
-        <div class="bg-cta">
-            <div class="container">
-                <div class="row justify-content-center items-aling-center">
-                    <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
-                        <img src="assets/img/identidad-G77.png" alt="G77">
-                    </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="mb-4 ">
-                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta77.png" alt="btn"></a>
-                        </div>
-                        <p class="fecha mb-4">del 21 de abril al 2 de mayo</p>
-                        <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
-                       
-                        <div class="row justify-content-center">
-                            <div class="col-12">
-                                <div class="row justify-content-center">
-                                    <div class="col-6 col-md-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></div>
-                                    <div class="col-6 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></div>
-                                    <div class="col-12 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-    
-                </div>
-            </div>
-            
-        </div>
 
 
-        <div class="bg-pausa d-none">
+
+        <div class="bg-pausa">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
-                        <img src="assets/img/identidad-G77.png" alt="G77">
+                        <img src="assets/img/identidad-G78.png" alt="G78">
                     </div>
                     <div class="col-12 col-md-4 ">
                         <div class="prox mb-4 ps-md-5 ps-4">
                             Próxima convocatoria
                         </div>
-                        <p class="fecha mb-4 ps-md-5 ps-4 text-start"><b>Regístrate</b> del 21 de abril <br> al 2 de mayo</p>
+                        <p class="fecha mb-4 ps-md-5 ps-4 text-start"><b>Regístrate</b> del 19 al 30 de mayo</p>
                     </div>
                     <div class="col-12 col-md-3">
                         <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
@@ -177,13 +150,7 @@ exit;
         <div class="container">
             <div class="row">
                 
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card-convo">
-                        <img src="assets/img/identidad-G74.png" height="140" alt="convocatoria 74">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
-                    </div>
-                </div>
+                
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/G75.png" height="140" alt="convocatoria 75">
@@ -196,6 +163,13 @@ exit;
                         <img src="assets/img/G76.png" height="140" alt="convocatoria 76">
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card-convo">
+                        <img src="assets/img/identidad-G77.png" height="140" alt="convocatoria 77">
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
                     </div>
                 </div>
 
@@ -590,9 +564,7 @@ exit;
                             <div class="text-center"> <img src="assets/img/G76.png" height="140" alt="G76"></div>
                             
                             <ul class="timeline text-center">
-                                <li class="d-none">
-                                    <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
-                                </li>
+                                
                                 <li >
                                     <a class="btn btn-timeline disabled" href="#" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 2 al 6 de abril</p>
@@ -632,27 +604,29 @@ exit;
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-12 col-md-10">
-                            <div class="text-center"> <img src="assets/img/identidad-G74.png" height="140" alt="G74"></div>
+                            <div class="text-center"> <img src="assets/img/identidad-G77.png" height="140" alt="G77"></div>
                             
+                            <p class="text-center"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>           
                             <ul class="timeline text-center">
+
                                 
                                 <li >
                                     <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
-                                    <p>del 5 al 9 de febrero</p>
+                                    <p>del 7 al 11 de mayo</p>
                                 </li>
                                 <li >
                                     <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
-                                    <p>del 10 de febrero <br>
-                                        al 9 de marzo</p>
+                                    <p>del 12 de mayo <br>
+                                        al 8 de junio</p>
                                 </li>
                                 <li>
                                     <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(19,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
-                                    <p>del 14 al 26 de marzo</p>
+                                    <p>del 13 al 25 de junio</p>
                                 </li>
-                                <li class="enproceso">
-                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(20,<?php echo $secB; ?>)">Cursa el módulo 1</a>
-                                    <p>del 31 de marzo <br>
-                                        al 4 de mayo</p>
+                                <li >
+                                    <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(20,<?php echo $secB; ?>)">Cursa el módulo 1</a>
+                                    <p>del 30 de junio <br>
+                                        al 3 de agosto</p>
                                 </li>
                             </ul>
                         </div>

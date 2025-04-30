@@ -51,7 +51,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img class="logo-convocatoria" src="assets/img/logo77.svg" alt="logo">
+                    <img class="logo-convocatoria" src="assets/img/logo-general.svg" alt="logo">
                 </div>
                 <div class="col col-md-9">
                    
@@ -95,7 +95,7 @@
         <div class="row justify-content-center">
             <div class="col-12-col-md-6 mb-4">
 
-                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>77</b></span> inicia el 21 de abril al 2 de mayo.</p>
+                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>78</b></span> inicia el 19 al 30 de mayo.</p>
             </div>
         </div>
     </div>

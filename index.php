@@ -6,13 +6,13 @@ $secB = 1;
 $secC = 2;
 $convoActivo = 3;
 
-/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/$%lf$229820%&#$")
+if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/$%lf$229820%&#$")
 {
 header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
 header('HTTP/1.0 401 Unauthorized');
 echo 'Authorization Required To Server.';
 exit;
-} */
+}
 ?>
 
 <!doctype html>
@@ -418,12 +418,12 @@ exit;
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-77/bases_g77.pdf" ></iframe>
+                        <iframe class="pdf" src="kit-78/bases_g78.pdf" ></iframe>
                     </div>
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-77/bases_g77.pdf" download="PL-SEP_Convo2025-G77-bases.pdf" onclick="conteo_recurso(3)">
+                            <a class="btn btn-labeled" href="kit-78/bases_g78.pdf" download="PL-SEP_Convo2025-G78-bases.pdf" onclick="conteo_recurso(3)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -447,11 +447,11 @@ exit;
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-77/guia_aspirante_g77.pdf" ></iframe>
+                        <iframe class="pdf" src="kit-78/guia_aspirante_g78.pdf" ></iframe>
                     </div>
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-77/guia_aspirante_g77.pdf" download="PL-SEP_Convo2025-G77-guia_aspirante.pdf" onclick="conteo_recurso(4)">
+                            <a class="btn btn-labeled" href="kit-78/guia_aspirante_g78.pdf" download="PL-SEP_Convo2025-G78-guia_aspirante.pdf" onclick="conteo_recurso(4)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             
@@ -508,7 +508,7 @@ exit;
             
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-74/guia_aspirante_g74.pdf" download="PL-SEP_Convo2025-G74-guia_registro.pdf" onclick="conteo_recurso(21)">
+                            <a class="btn btn-labeled" href="kit-77/guia_aspirante_g77.pdf" download="PL-SEP_Convo2025-G77-guia_registro.pdf" onclick="conteo_recurso(21)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             

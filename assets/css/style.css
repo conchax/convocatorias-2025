@@ -454,3 +454,7 @@ iframe.pdf{
         width: 100%;
     }
  }
+
+ .slick-prev:before, .slick-next:before {
+    color: #6c757d;
+}

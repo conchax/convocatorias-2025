@@ -532,11 +532,16 @@
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-78/P_FB.png" alt="Portada Facebook">Facebook</div>
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" src="kit-78/P_X.png" alt="Portada X">x</div>
-                        <div class="col-12 col-md-6 text-center"><img class="img-fluid" width="300" src="kit-78/P_Spotify.png" alt="Portada spotify">Spotify</div>
+                        <div class="col-12 col-md-6 text-center">Facebook<img class="img-fluid" src="kit-78/P_FB.png" alt="Portada Facebook"></div>
+                        <div class="col-12 col-md-6 text-center">X<img class="img-fluid" src="kit-78/P_X.png" alt="Portada X"></div>
                     </div>
-            
+
+                    <div class="row justify-content-center align-items-center m-4">
+                        <div class="col-12 col-md-6 text-center">
+                            <p>Spotify</p>
+                            <img class="img-fluid" width="300" src="kit-78/P_Spotify.png" alt="Portada spotify">
+                        </div>
+                    </div>
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
                             <p>Fecha sugerida de publicación <b>19 de mayo </b></p>

@@ -1,10 +1,10 @@
 <?php
 // VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
 // CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
-$secA = 0;
-$secB = 1;
-$secC = 2;
-$convoActivo = 3;
+$secA = 1;
+$secB = 2;
+$secC = 3;
+$convoActivo = 4;
 
 /* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="#dT/$%lf$229820%&#$")
 {

@@ -610,8 +610,8 @@ exit;
                             <ul class="timeline text-center">
 
                                 
-                                <li >
-                                    <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
+                                <li class="enproceso">
+                                    <a class="btn btn-timeline activo" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 7 al 11 de mayo</p>
                                 </li>
                                 <li >
@@ -663,12 +663,12 @@ exit;
                                     <p>del 10 de marzo <br>
                                         al 6 de abril</p>
                                 </li>
-                                <li class="enproceso"> <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
-                                    <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                                <li > <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
+                                    <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                                     <p>del 11 al 30 de abril</p>
                                 </li>
-                                <li><!-- data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" -->
-                                    <a class="btn btn-timeline disabled" href="#" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                                <li class="enproceso"><!-- data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" -->
+                                    <a class="btn btn-timeline activo" href="#" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
                                     <p>del 5 de mayo <br>
                                         al 1 de junio</p>
                                 </li>

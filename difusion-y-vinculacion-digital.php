@@ -609,7 +609,7 @@
                     <div class="row justify-content-center mt-4">
                         <div class="col-12 col-md-11 text-center">
                             <p>Fecha sugerida de publicación <b>19 de mayo </b></p>
-                            <a class="btn btn-labeled" href="kit-78/carteles_g87.zip" download="PL-SEP_Convo2025-G78-cartel.zip" onclick="conteo_recurso(33)">
+                            <a class="btn btn-labeled" href="kit-78/carteles_g78.zip" download="PL-SEP_Convo2025-G78-cartel.zip" onclick="conteo_recurso(33)">
                                 <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
                             </a>
                             

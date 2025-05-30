@@ -581,8 +581,8 @@ exit;
                                     <p>del 7 de abril <br>
                                         al 11 de mayo</p>
                                 </li>
-                                <li class="enproceso">
-                                    <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
+                                <li >
+                                    <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
                                     <p>del 16 al 28 de mayo</p>
                                 </li>
                                 <li class="last">

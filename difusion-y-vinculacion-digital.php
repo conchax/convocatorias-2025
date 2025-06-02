@@ -441,7 +441,7 @@
             <div class="modal-body">
                 <div class="container fluid">
                     <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-78/bases_g78.pdf" ></iframe>
+                        <iframe class="pdf" src="kit-79/bases_g79.pdf" ></iframe>
                     </div>
             
                     <div class="row justify-content-center mt-4">

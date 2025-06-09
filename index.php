@@ -639,8 +639,8 @@ exit;
                                     <a class="btn btn-timeline disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 7 al 11 de mayo</p>
                                 </li>
-                                <li class="enproceso">
-                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
+                                <li>
+                                    <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
                                     <p>del 12 de mayo <br>
                                         al 8 de junio</p>
                                 </li>
@@ -680,11 +680,11 @@ exit;
                             <ul class="timeline text-center">
                                 
                                 <li>
-                                    <a class="btn btn-timeline disabled" href="#"  onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
+                                    <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank"  onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
                                     <p>del 4 al 8 de junio</p>
                                 </li>
-                                <li>
-                                    <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
+                                <li  class="enproceso">
+                                    <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
                                     <p>del 9 de junio <br>
                                         al 6 de julio</p>
                                 </li>
@@ -693,7 +693,7 @@ exit;
                                     <p>del 11 al 30 de julio</p>
                                 </li>
                                 <li >
-                                    <a class="btn btn-timeline disable" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                                    <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
                                     <p>del 4 al 31 de agosto</p>
                                 </li>
                             </ul>

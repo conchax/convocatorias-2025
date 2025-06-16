@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="es">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <link rel="icon" type="image/x-icon" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/img/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,20 +13,20 @@
     <link rel="stylesheet" id="estilos-css" href="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/css/pls.min.css?ver=6.4.2" type="text/css" media="all">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <!-- Add the slick-theme.css if you want default styling -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-     <!-- You can use Open Graph tags to customize link previews.
+    <!-- You can use Open Graph tags to customize link previews.
     Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
-    <meta property="og:url"           content="https://prepaenlinea.sep.gob.mx/convocatorias-2025/difusion-y-vinculacion-digital.html" />
-    <meta property="og:type"          content="website" />
-    <meta property="og:title"         content="Difusión y vinculación digital - 2025" />
-    <meta property="og:description"   content="Accede a los recursos oficiales de la convocatoria y compártelos fácilmente." />
-    <meta property="og:image"         content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-difusionvinculacion.png" />
-    
-    <meta name="twitter:card" content="summary_large_image"/>
+    <meta property="og:url" content="https://prepaenlinea.sep.gob.mx/convocatorias-2025/difusion-y-vinculacion-digital.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Difusión y vinculación digital - 2025" />
+    <meta property="og:description" content="Accede a los recursos oficiales de la convocatoria y compártelos fácilmente." />
+    <meta property="og:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-difusionvinculacion.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Difusión y vinculación digital - 2025" />
     <meta name="twitter:description" content="Accede a los recursos oficiales de la convocatoria y compártelos fácilmente." />
     <meta name="twitter:image" content="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/01/portada-difusionvinculacion.png" />
@@ -33,19 +34,23 @@
     <!-- GA Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DZH4V12W3M"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-DZH4V12W3M');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-DZH4V12W3M');
     </script>
     <!-- GA Google Analytics -->
-  </head>
-  <body>
-<!-- menu -->  
-<div id="headerPLS"></div>
-<!-- menu -->  
-<section class="section-w"></section>
+</head>
+
+<body>
+    <!-- menu -->
+    <div id="headerPLS"></div>
+    <!-- menu -->
+    <section class="section-w"></section>
 
     <header>
         <div class="container">
@@ -54,7 +59,7 @@
                     <img class="logo-convocatoria" src="assets/img/logo-general.svg" alt="logo">
                 </div>
                 <div class="col col-md-9">
-                   
+
                     <div class="des">
                         <h1 class="mb-3">Difusión y vinculación digital</h1>
                     </div>
@@ -68,7 +73,7 @@
             <div class="row justify-content-center">
                 <div class="col-12 col-md-9">
                     <p class="parrafo text-center">
-                        Este espacio contiene los recursos oficiales de las convocatorias de registro a  Prepa en Línea-SEP para su difusión en redes sociales y portales institucionales o sitios web.
+                        Este espacio contiene los recursos oficiales de las convocatorias de registro a Prepa en Línea-SEP para su difusión en redes sociales y portales institucionales o sitios web.
                     </p>
                 </div>
             </div>
@@ -76,13 +81,13 @@
                 <div class="col-12 col-md-6 text-center">
                     <div class="ratio ratio-16x9">
                         <iframe src="https://www.youtube.com/embed/c6xjGbsPTCU?si=sus5tkipZcgW5KVF" title="YouTube video" allowfullscreen></iframe>
-                    </div>                    
+                    </div>
                 </div>
             </div>
         </div>
-       
+
     </section>
-    
+
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -99,7 +104,7 @@
             </div>
         </div>
     </div>
-    
+
     <section>
         <div class="container">
             <div class="row">
@@ -109,33 +114,39 @@
             </div>
             <div class="row justify-content-center align-items-center">
                 <div class="col-12 col-md-2 text-center"><!-- width="190" height="338 -->
-                    <iframe class="shortv" 
-                    src="https://www.youtube.com/embed/fDDTqRkzO0Q?si=7Xu4KZ2zopmqcHT8"
-                    title="YouTube video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen></iframe>
+                    <iframe class="shortv"
+                        src="https://www.youtube.com/embed/fDDTqRkzO0Q?si=7Xu4KZ2zopmqcHT8"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
                     <p class="parrafo-s">¿Cómo descargar y difundir?</p>
                 </div>
                 <div class="col-12 col-md-10 recursos text-center">
-                    
+
                     <a class="btn btn-labeled rc" data-bs-toggle="modal" data-bs-target="#bases">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span> <div class="text-bottom">Bases</div> 
+                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span>
+                        <div class="text-bottom">Bases</div>
                     </a>
                     <a class="btn btn-labeled rc" data-bs-toggle="modal" data-bs-target="#infografia">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span> <div class="text-bottom">Infografía</div> 
+                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span>
+                        <div class="text-bottom">Infografía</div>
                     </a>
                     <a class="btn btn-labeled rc" data-bs-toggle="modal" data-bs-target="#guia">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span> <div class="text-bottom">Guía del aspirante</div> 
+                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span>
+                        <div class="text-bottom">Guía del aspirante</div>
                     </a>
                     <a class="btn btn-labeled rc" data-bs-toggle="modal" data-bs-target="#portadas">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span> <div class="text-bottom">Portadas</div> 
+                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span>
+                        <div class="text-bottom">Portadas</div>
                     </a>
                     <a class="btn btn-labeled rc" data-bs-toggle="modal" data-bs-target="#banners">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span> <div class="text-bottom">Banners</div> 
+                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span>
+                        <div class="text-bottom">Banners</div>
                     </a>
                     <a class="btn btn-labeled rc" data-bs-toggle="modal" data-bs-target="#cartel">
-                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span> <div class="text-bottom">Cartel</div> 
+                        <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i></span>
+                        <div class="text-bottom">Cartel</div>
                     </a>
                     <div class="card-copy-text rc">
                         <div class="text-center mb-3">Video spot</div>
@@ -159,7 +170,7 @@
             </div>
         </div>
     </section>
-<!-- hr -->
+    <!-- hr -->
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -172,12 +183,12 @@
     <section>
         <div class="container">
             <div class="col-12 mt-4">
-                <p class="parrafo text-center"><b>¿Te gustaría formar parte de nuestras instituciones aliadas?</b>  Déjanos tus datos aquí. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1" target="_blank" onclick="conteo_recurso(37)"> <i class="fa-regular fa-rectangle-list"></i></a>  </p>
+                <p class="parrafo text-center"><b>¿Te gustaría formar parte de nuestras instituciones aliadas?</b> Déjanos tus datos aquí. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1" target="_blank" onclick="conteo_recurso(37)"> <i class="fa-regular fa-rectangle-list"></i></a> </p>
                 <p class="parrafo text-center"><b>Nuestras instituciones aliadas</b></p>
                 <section class="responsive slider">
-                    <div> 
+                    <div>
                         <a href="http://www.xochimilco.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/1.jpg"></a>
-                    </div> 
+                    </div>
                     <div>
                         <a href="https://upn.mx/" target="_blank"><img src="assets/img/logos/2.jpg"></a>
                     </div>
@@ -290,339 +301,342 @@
     <!-- Logos -->
 
 
-<!--    copiar enlace -->
-<script>
-    const button = document.getElementById("buttonVideospot");
-    const quote = document.getElementById("videospot");
+    <!--    copiar enlace -->
+    <script>
+        const button = document.getElementById("buttonVideospot");
+        const quote = document.getElementById("videospot");
 
-    function copyToClipboard(text) {
-    const textArea = document.createElement("textarea");
-    textArea.value = text;
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
 
-    // Añadir el elemento al DOM
-    document.body.appendChild(textArea);
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
 
-    // Seleccionar el texto en el textarea
-    textArea.select();
+            // Seleccionar el texto en el textarea
+            textArea.select();
 
-    try {
-        // Copiar el texto al portapapeles
-        document.execCommand("copy");
-        console.log("Copiado al portapapeles");
-    } catch (err) {
-        console.error("No se pudo copiar al portapapeles:", err);
-    }
-    // Eliminar el textarea del DOM
-    document.body.removeChild(textArea);
-    }
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
 
-    button.addEventListener("click", () => {
-    copyToClipboard(quote.textContent);
-    
-    var css = document.createElement("style");
-    var estilo = document.createTextNode(
-        "#avisoone {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
-    );
-    css.appendChild(estilo);
-    document.head.appendChild(css);
-    var aviso = document.createElement("div");
-    aviso.setAttribute("id", "avisoone");
-    var contenidoc = document.createTextNode("Enlace copiado");
-    aviso.appendChild(contenidoc);
-    document.body.appendChild(aviso);
-    window.load = setTimeout("document.body.removeChild(avisoone)", 1000)
-    });
-   
-</script>
+        button.addEventListener("click", () => {
+            copyToClipboard(quote.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisoone {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisoone");
+            var contenidoc = document.createTextNode("Enlace copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisoone)", 1000)
+        });
+    </script>
 
     <!-- copiar copy -->
-<script>
-    const buttoncopy = document.getElementById("buttoncopy");
-    const elmcopy = document.getElementById("copy");
+    <script>
+        const buttoncopy = document.getElementById("buttoncopy");
+        const elmcopy = document.getElementById("copy");
 
-    function copyToClipboard(text) {
-    const textArea = document.createElement("textarea");
-    textArea.value = text;
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
 
-    // Añadir el elemento al DOM
-    document.body.appendChild(textArea);
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
 
-    // Seleccionar el texto en el textarea
-    textArea.select();
+            // Seleccionar el texto en el textarea
+            textArea.select();
 
-    try {
-        // Copiar el texto al portapapeles
-        document.execCommand("copy");
-        console.log("Copiado al portapapeles");
-    } catch (err) {
-        console.error("No se pudo copiar al portapapeles:", err);
-    }
-    // Eliminar el textarea del DOM
-    document.body.removeChild(textArea);
-    }
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
 
-    buttoncopy.addEventListener("click", () => {
-    copyToClipboard(elmcopy.textContent);
-    
-    var css = document.createElement("style");
-    var estilo = document.createTextNode(
-        "#avisotwo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
-    );
-    css.appendChild(estilo);
-    document.head.appendChild(css);
-    var aviso = document.createElement("div");
-    aviso.setAttribute("id", "avisotwo");
-    var contenidoc = document.createTextNode("Copy sugerido copiado");
-    aviso.appendChild(contenidoc);
-    document.body.appendChild(aviso);
-    window.load = setTimeout("document.body.removeChild(avisotwo)", 1000)
-    });
-    
-</script>
+        buttoncopy.addEventListener("click", () => {
+            copyToClipboard(elmcopy.textContent);
 
-<!-- copiar hashtags -->
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisotwo {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisotwo");
+            var contenidoc = document.createTextNode("Copy sugerido copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisotwo)", 1000)
+        });
+    </script>
 
-<script>
-    const buttonhastag = document.getElementById("buttonhastag");
-    const elmhastag = document.getElementById("hastag");
+    <!-- copiar hashtags -->
 
-    function copyToClipboard(text) {
-    const textArea = document.createElement("textarea");
-    textArea.value = text;
+    <script>
+        const buttonhastag = document.getElementById("buttonhastag");
+        const elmhastag = document.getElementById("hastag");
 
-    // Añadir el elemento al DOM
-    document.body.appendChild(textArea);
+        function copyToClipboard(text) {
+            const textArea = document.createElement("textarea");
+            textArea.value = text;
 
-    // Seleccionar el texto en el textarea
-    textArea.select();
+            // Añadir el elemento al DOM
+            document.body.appendChild(textArea);
 
-    try {
-        // Copiar el texto al portapapeles
-        document.execCommand("copy");
-        console.log("Copiado al portapapeles");
-    } catch (err) {
-        console.error("No se pudo copiar al portapapeles:", err);
-    }
-    // Eliminar el textarea del DOM
-    document.body.removeChild(textArea);
-    }
+            // Seleccionar el texto en el textarea
+            textArea.select();
 
-    buttonhastag.addEventListener("click", () => {
-    copyToClipboard(elmhastag.textContent);
-    
-    var css = document.createElement("style");
-    var estilo = document.createTextNode(
-        "#avisotrhee {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
-    );
-    css.appendChild(estilo);
-    document.head.appendChild(css);
-    var aviso = document.createElement("div");
-    aviso.setAttribute("id", "avisotrhee");
-    var contenidoc = document.createTextNode("Hashtags copiado");
-    aviso.appendChild(contenidoc);
-    document.body.appendChild(aviso);
-    window.load = setTimeout("document.body.removeChild(avisotrhee)", 1000)
-    });
-    
-</script>
-      
-<!-- footer -->  
-<div id="footerPLS"></div>
-<!-- footer --> 
+            try {
+                // Copiar el texto al portapapeles
+                document.execCommand("copy");
+                console.log("Copiado al portapapeles");
+            } catch (err) {
+                console.error("No se pudo copiar al portapapeles:", err);
+            }
+            // Eliminar el textarea del DOM
+            document.body.removeChild(textArea);
+        }
+
+        buttonhastag.addEventListener("click", () => {
+            copyToClipboard(elmhastag.textContent);
+
+            var css = document.createElement("style");
+            var estilo = document.createTextNode(
+                "#avisotrhee {position:fixed; z-index: 9999999; top:30%;left:50%;margin-left: -40px;padding: 10px 20px; background: var(--color-primary) ;border-radius: 8px;font-size: 18px; color: #fff}"
+            );
+            css.appendChild(estilo);
+            document.head.appendChild(css);
+            var aviso = document.createElement("div");
+            aviso.setAttribute("id", "avisotrhee");
+            var contenidoc = document.createTextNode("Hashtags copiado");
+            aviso.appendChild(contenidoc);
+            document.body.appendChild(aviso);
+            window.load = setTimeout("document.body.removeChild(avisotrhee)", 1000)
+        });
+    </script>
+
+    <!-- footer -->
+    <div id="footerPLS"></div>
+    <!-- footer -->
 
     <!-- Modal Bases -->
     <div class="modal fade" id="bases" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5">Bases</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-79/bases_g79.pdf" ></iframe>
-                    </div>
-            
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>16 de junio </b></p>
-                            <a class="btn btn-labeled" href="kit-79/bases_g79.pdf" download="PL-SEP_Convo2025-G79-bases.pdf" onclick="conteo_recurso(28)">
-                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
-                            </a>
-                            
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Bases</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container fluid">
+                        <div class="row justify-content-center">
+                            <iframe class="pdf" src="kit-79/bases_g79.pdf"></iframe>
+                        </div>
+
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 col-md-11 text-center">
+                                <p>Fecha sugerida de publicación <b>16 de junio </b></p>
+                                <a class="btn btn-labeled" href="kit-79/bases_g79.pdf" download="PL-SEP_Convo2025-G79-bases.pdf" onclick="conteo_recurso(28)">
+                                    <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
+                                    <div class="text-bottom">Descargar</div>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
-          </div>
         </div>
     </div>
 
-     <!-- Modal infografia -->
-     <div class="modal fade" id="infografia" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <!-- Modal infografia -->
+    <div class="modal fade" id="infografia" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5">Infografía</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-12-col-md-8 text-center">
-                            <img class="infog" src="kit-79/infografia_g79.png" alt="infografia">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Infografía</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container fluid">
+                        <div class="row justify-content-center">
+                            <div class="col-12-col-md-8 text-center">
+                                <img class="infog" src="kit-79/infografia_g79.png" alt="infografia">
+                            </div>
                         </div>
-                    </div>
-            
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>16 de junio </b></p>
-                            <a class="btn btn-labeled" href="kit-79/infografia_g79.png" download="PL-SEP_Convo2025-G79-infografia.png" onclick="conteo_recurso(30)">
-                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
-                            </a>
-                            
+
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 col-md-11 text-center">
+                                <p>Fecha sugerida de publicación <b>16 de junio </b></p>
+                                <a class="btn btn-labeled" href="kit-79/infografia_g79.png" download="PL-SEP_Convo2025-G79-infografia.png" onclick="conteo_recurso(30)">
+                                    <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
+                                    <div class="text-bottom">Descargar</div>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
-          </div>
         </div>
     </div>
 
-     <!-- Modal Guia -->
-     <div class="modal fade" id="guia" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <!-- Modal Guia -->
+    <div class="modal fade" id="guia" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5">Guía del aspirante</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center">
-                        <iframe class="pdf" src="kit-79/guia_aspirante_g79.pdf" ></iframe>
-                    </div>
-            
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>16 de junio </b></p>
-                            <a class="btn btn-labeled" href="kit-79/guia_aspirante_g79.pdf" download="PL-SEP_Convo2025-G79-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
-                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
-                            </a>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Guía del aspirante</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container fluid">
+                        <div class="row justify-content-center">
+                            <iframe class="pdf" src="kit-79/guia_aspirante_g79.pdf"></iframe>
+                        </div>
+
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 col-md-11 text-center">
+                                <p>Fecha sugerida de publicación <b>16 de junio </b></p>
+                                <a class="btn btn-labeled" href="kit-79/guia_aspirante_g79.pdf" download="PL-SEP_Convo2025-G79-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
+                                    <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
+                                    <div class="text-bottom">Descargar</div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
-          </div>
         </div>
     </div>
 
-     <!-- Modal portadas -->
-     <div class="modal fade" id="portadas" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <!-- Modal portadas -->
+    <div class="modal fade" id="portadas" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5">Portadas</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-md-6 text-center">Facebook<img class="img-fluid" src="kit-79/P_FB.png" alt="Portada Facebook"></div>
-                        <div class="col-12 col-md-6 text-center">X<img class="img-fluid" src="kit-79/P_X.png" alt="Portada X"></div>
-                    </div>
-
-                    <div class="row justify-content-center align-items-center m-4">
-                        <div class="col-12 col-md-6 text-center">
-                            <p>Spotify</p>
-                            <img class="img-fluid" width="300" src="kit-79/P_Spotify.png" alt="Portada spotify">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Portadas</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container fluid">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-12 col-md-6 text-center">Facebook<img class="img-fluid" src="kit-79/P_FB.png" alt="Portada Facebook"></div>
+                            <div class="col-12 col-md-6 text-center">X<img class="img-fluid" src="kit-79/P_X.png" alt="Portada X"></div>
                         </div>
-                    </div>
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>16 de junio </b></p>
-                            <a class="btn btn-labeled" href="kit-79/portadas_RRSS_g79.zip" download="PL-SEP_Convo2025-G79-portadas_rrss.zip" onclick="conteo_recurso(31)">
-                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
-                            </a>
-                            
+
+                        <div class="row justify-content-center align-items-center m-4">
+                            <div class="col-12 col-md-6 text-center">
+                                <p>Spotify</p>
+                                <img class="img-fluid" width="300" src="kit-79/P_Spotify.png" alt="Portada spotify">
+                            </div>
+                        </div>
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 col-md-11 text-center">
+                                <p>Fecha sugerida de publicación <b>16 de junio </b></p>
+                                <a class="btn btn-labeled" href="kit-79/portadas_RRSS_g79.zip" download="PL-SEP_Convo2025-G79-portadas_rrss.zip" onclick="conteo_recurso(31)">
+                                    <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
+                                    <div class="text-bottom">Descargar</div>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
-          </div>
         </div>
     </div>
 
-     <!-- Modal banners -->
-     <div class="modal fade" id="banners" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <!-- Modal banners -->
+    <div class="modal fade" id="banners" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5">Banners</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_registrate.png" alt=" Registrte">Fecha sugerida de publicación <b>16 de junio </b></div>
-                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_proxima.png" alt="Cerrada ">Fecha sugerida de publicación <b>2 de julio </b></div>
-                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_resultados.png" alt="Resultados ">Fecha sugerida de publicación <b>15 de agosto </b></div>
-                        <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_video-spot.png" alt="Video">Fecha sugerida de publicación <b>16 de junio </b></div>
-                    </div>
-            
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-11 text-center">
-                            <a class="btn btn-labeled" href="kit-79/banners_portal_g79.zip" download="PL-SEP_Convo2025-G79-banners-portal.zip" onclick="conteo_recurso(32)">
-                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
-                            </a>
-                            
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Banners</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container fluid">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_registrate.png" alt=" Registrte">Fecha sugerida de publicación <b>16 de junio </b></div>
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_proxima.png" alt="Cerrada ">Fecha sugerida de publicación <b>2 de julio </b></div>
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_resultados.png" alt="Resultados ">Fecha sugerida de publicación <b>15 de agosto </b></div>
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-79/banner_portal_video-spot.png" alt="Video">Fecha sugerida de publicación <b>16 de junio </b></div>
+                        </div>
+
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 col-md-11 text-center">
+                                <a class="btn btn-labeled" href="kit-79/banners_portal_g79.zip" download="PL-SEP_Convo2025-G79-banners-portal.zip" onclick="conteo_recurso(32)">
+                                    <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
+                                    <div class="text-bottom">Descargar</div>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
-          </div>
         </div>
     </div>
 
-     <!-- Modal cartel -->
-     <div class="modal fade" id="cartel" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
+    <!-- Modal cartel -->
+    <div class="modal fade" id="cartel" tabindex="-1" aria-labelledby="ModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5">Cartel</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <div class="container fluid">
-                    <div class="row justify-content-center align-items-center">
-                        <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-79/cartel_horizontal.png" alt="Portada Facebook">Cartel horizontal</div>
-                        <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-79/cartel_vertical.png" alt="Portada X">Cartel vertical</div>
-                        
-                    </div>
-            
-                    <div class="row justify-content-center mt-4">
-                        <div class="col-12 col-md-11 text-center">
-                            <p>Fecha sugerida de publicación <b>19 de mayo </b></p>
-                            <a class="btn btn-labeled" href="kit-79/carteles_g79.zip" download="PL-SEP_Convo2025-G79-cartel.zip" onclick="conteo_recurso(33)">
-                                <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span> <div class="text-bottom">Descargar</div> 
-                            </a>
-                            
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5">Cartel</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container fluid">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-79/cartel_horizontal.png" alt="Portada Facebook">Cartel horizontal</div>
+                            <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-79/cartel_vertical.png" alt="Portada X">Cartel vertical</div>
+
+                        </div>
+
+                        <div class="row justify-content-center mt-4">
+                            <div class="col-12 col-md-11 text-center">
+                                <p>Fecha sugerida de publicación <b>19 de mayo </b></p>
+                                <a class="btn btn-labeled" href="kit-79/carteles_g79.zip" download="PL-SEP_Convo2025-G79-cartel.zip" onclick="conteo_recurso(33)">
+                                    <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
+                                    <div class="text-bottom">Descargar</div>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
                 </div>
+
             </div>
-            
-          </div>
         </div>
     </div>
-   
-  
+
+
 
 
     <script type="text/javascript" src="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/js/pls.min.js?ver=6.4.1" id="plsep-js-js"></script>
@@ -634,43 +648,43 @@
     <script type="text/javascript">
         $(document).on('ready', function() {
             $('.responsive').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        lazyLoad: 'ondemand',
-        autoplay: true,
-        slidesToShow: 8,
-        slidesToScroll: 4,
-        responsive: [
-            {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 6,
-                slidesToScroll: 3,
+                dots: true,
                 infinite: true,
-                dots: true
-            }
-            },
-            {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 4,
-                slidesToScroll: 2
-            }
-            },
-            {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 3
-            }
-            }
-            // You can unslick at a given breakpoint now by adding:
-            // settings: "unslick"
-            // instead of a settings object
-        ]
-        });
+                speed: 300,
+                lazyLoad: 'ondemand',
+                autoplay: true,
+                slidesToShow: 8,
+                slidesToScroll: 4,
+                responsive: [{
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 6,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
         });
     </script>
-  </body>
+</body>
+
 </html>

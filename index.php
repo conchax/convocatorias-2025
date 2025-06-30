@@ -1,12 +1,12 @@
 <?php
 // VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
 // CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
-$secA = 2;
-$secB = 3;
-$secC = 4;
-$convoActivo = 5;
+$secA = 3;
+$secB = 4;
+$secC = 5;
+$convoActivo = 6;
 
-/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="convo79airb89")
+/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="convo80airb89")
 {
 header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
 header('HTTP/1.0 401 Unauthorized');
@@ -106,12 +106,12 @@ exit;
                         <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
                         <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
                     </div>
-    
+
                 </div>
             </div>
         </div>
 
-        
+
 
         <div class="container">
             <div class="row mt-4">
@@ -154,7 +154,7 @@ exit;
         <div class="container">
             <div class="row">
 
-                
+
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/identidad-G77.png" height="140" alt="convocatoria 77">
@@ -632,8 +632,8 @@ exit;
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(19,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 13 al 25 de junio</p>
                                     </li>
-                                    <li>
-                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(20,<?php echo $secB; ?>)">Cursa el módulo 1</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(20,<?php echo $secB; ?>)">Cursa el módulo 1</a>
                                         <p>del 30 de junio <br>
                                             al 3 de agosto</p>
                                     </li>

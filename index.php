@@ -576,8 +576,8 @@ exit;
                                 <div class="text-center"> <img src="assets/img/identidad-G79.png" height="140" alt="G79"></div>
 
                                 <ul class="timeline text-center">
-                                    <li>
-                                        <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 2 al 6 de julio</p>
                                     </li>
                                     <li>

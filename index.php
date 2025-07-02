@@ -370,7 +370,7 @@ exit;
                                             <div class="col-12">
                                                 <p class="text-titulo text-center">Navegación</p>
                                             </div>
-                                            <p>Al estudiar en Prepa en Línea-SEP, accederás a una plataforma con aulas virtuales que contienen recursos como audios, videos, infografías y lecturas en PDF; además de herremientas de comunicación como foros y mensajero.</p>
+                                            <p>Al estudiar en Prepa en Línea-SEP, accederás a una plataforma con aulas virtuales que contienen recursos como audios, videos, infografías y lecturas en PDF; además de herramientas de comunicación como foros y mensajero.</p>
                                             <p>Puedes usar dispositivos móviles para acceder a los recursos en cualquier momento y lugar. Toma en cuenta
                                                 que <strong>algunas actividades requieren programas específicos en computadora</strong> para mejorar la
                                                 calidad y elaboración de tus trabajos. </p>

@@ -580,8 +580,8 @@ exit;
                                         <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 2 al 6 de julio</p>
                                     </li>
-                                    <li class="enproceso">
-                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
+                                    <li>
+                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
                                         <p>del 7 de julio <br>
                                             al 10 de agosto</p>
                                     </li>
@@ -672,8 +672,8 @@ exit;
                                         <p>del 9 de junio <br>
                                             al 6 de julio</p>
                                     </li>
-                                    <li> <!-- https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/ -->
-                                        <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 11 al 30 de julio</p>
                                     </li>
                                     <li>

@@ -36,6 +36,72 @@
     gtag('config', 'G-DZH4V12W3M');
     </script>
     <!-- GA Google Analytics -->
+     <style>
+     /*    .card-con{
+            box-shadow: 0px 0px 11px 3px #00000014;
+            width: 312px;
+            margin: 0 auto;
+            padding: 30px 10px;
+            border-radius: 16px;
+            min-height: 310px;
+        } */
+        .card-con .t{
+            color: #53A8B9;
+            font-weight: 700;
+        }
+        .card-con .d{
+            font-weight: 400;
+        }
+        .line{
+            color: #53A8B9;
+            opacity: 1;
+        }
+
+        .scene {
+            display: inline-block;
+            width: 312px;
+            min-height: 310px;
+            box-shadow: 0px 0px 11px 3px #00000014;
+            perspective: 600px;
+            border-radius: 16px;
+
+        }
+
+        .card-con {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        transform-style: preserve-3d;
+        transform-origin: center right;
+        transition: transform 1s;
+
+        }
+
+        .card-con.is-flipped {
+        transform: translateX(-100%) rotateY(-180deg);
+        }
+
+        .card__face {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        backface-visibility: hidden;
+        }
+
+        .card__face--front {
+        background: crimson;
+        }
+
+        .card__face--back {
+        background: slateblue;
+        font-size: 15px;
+        transform: rotateY(180deg);
+        }
+     </style>
+
+
   </head>
   <body>
 <!-- menu -->  
@@ -57,6 +123,98 @@
             </div>
         </div>
     </header>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front</div>
+    <div class="card__face card__face--back">back</div>
+  </div>
+</div>
+<div class="scene scene--card">
+  <div class="card">
+    <div class="card__face card__face--front">front</div>
+    <div class="card__face card__face--back">back</div>
+  </div>
+</div>
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-3 ">
+                    <div class="scene scene--card">
+                        <div class="card-con">
+                            <div class="card__face card__face--front">
+                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-1.png" alt="icono uno">
+                                    <p class="t">
+                                        Habilidades digitales
+                                    </p>
+                                    <hr class="line">
+                                    <p class="d">
+                                        <ul class="text-start">
+                                            <li>comunicación virtual</li>
+                                            <li>gestión de la información digital</li>
+                                        </ul>
+                                    </p>
+                                    <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-rotar.png" alt="rotar">
+                            </div>
+                            <div class="card__face card__face--back">
+                                <p>
+                                    Cuentas con asesores virtuales y tutores escolares que guían el aprendizaje, lo que                                    
+                                    fortalece la comunicación virtual y el trabajo colaborativo. <br><br>
+                                    El uso de competencias digitales facilita tu transición al mundo laboral, puesto que son requeridas por las empresas. ¡Conquístalas!
+                                </p>
+                                <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-rotar.png" alt="rotar">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-con text-center">
+                        <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-1.png" alt="icono uno">
+                        <p class="t">
+                            Habilidades digitales
+                        </p>
+                        <hr class="line">
+                        <p class="d">
+                            <ul class="text-start">
+                                <li>comunicación virtual</li>
+                                <li>gestión de la información digital</li>
+                            </ul>
+                        </p>
+                        <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-rotar.png" alt="rotar">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-con text-center">
+                        <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-1.png" alt="icono uno">
+                        <p class="t">
+                            Autogestión y autonomía
+                        </p>
+                        <hr class="line">
+                        <p class="d">
+                            <ul class="text-start">
+                                <li>plataforma disponible 24/7</li>
+                                <li>horario flexible</li>
+                            </ul>
+                        </p>
+                        <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-rotar.png" alt="rotar">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card-con text-center">
+                        <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-1.png" alt="icono uno">
+                        <p class="t">
+                            Nuevas oportunidades profesionales y laborales
+                        </p>
+                        <hr class="line">
+                        <p class="d">
+                            <ul class="text-start">
+                                
+                                <li>certificado de bachillerato de la SEP</li>
+                            </ul>
+                        </p>
+                        <img src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2025/07/icono-rotar.png" alt="rotar">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="registro mb-5">
         <div class="container">
@@ -740,5 +898,14 @@
         jQuery(this).find('iframe').attr("src", "");
         }); 
     </script>	
+         <script>
+        var cards = document.querySelectorAll('.card-con');
+
+        [...cards].forEach((card)=>{
+        card.addEventListener( 'click', function() {
+            card.classList.toggle('is-flipped');
+        });
+        });
+     </script>
   </body>
 </html>

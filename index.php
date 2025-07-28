@@ -6,12 +6,11 @@ $secB = 4;
 $secC = 5;
 $convoActivo = 6;
 
-/* if ($_SERVER['PHP_AUTH_USER']!="PrepaLSEP" || $_SERVER['PHP_AUTH_PW']!="convo80airb89")
-{
-header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
-header('HTTP/1.0 401 Unauthorized');
-echo 'Authorization Required To Server.';
-exit;
+/* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo80airb80") {
+    header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
+    header('HTTP/1.0 401 Unauthorized');
+    echo 'Authorization Required To Server.';
+    exit;
 } */
 ?>
 
@@ -89,29 +88,34 @@ exit;
             </div>
         </div>
 
-        <div class="bg-pausa">
+        <div class="bg-cta">
             <div class="container">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center items-aling-center">
                     <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
                         <img src="assets/img/identidad-G80.webp" alt="G80">
                     </div>
-                    <div class="col-12 col-md-4 ">
-                        <div class="prox mb-4 ps-md-5 ps-4">
-                            Próxima convocatoria
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="mb-4 ">
+                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta-80.png" alt="btn"></a>
                         </div>
-                        <p class="fecha mb-4 ps-md-5 ps-4 text-start"><b>Regístrate</b> del 21 de julio <br> al 1 de agosto</p>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
+                        <p class="fecha mb-4">del 21 de julio <br> al 1 de agosto</p>
+                        <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
+
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-md-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></div>
+                                    <div class="col-6 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></div>
+                                    <div class="col-12 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
+
         </div>
-
-
 
         <div class="container">
             <div class="row mt-4">
@@ -576,12 +580,12 @@ exit;
                                 <div class="text-center"> <img src="assets/img/identidad-G79.png" height="140" alt="G79"></div>
 
                                 <ul class="timeline text-center">
-                                    <li >
+                                    <li>
                                         <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 2 al 6 de julio</p>
                                     </li>
-                                    <li>
-                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
                                         <p>del 7 de julio <br>
                                             al 10 de agosto</p>
                                     </li>
@@ -712,8 +716,6 @@ exit;
                                         <iframe width="100%" height="auto" class="embed-responsive-item" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     </div>
                                 </div>
-
-
                             </div>
                         </div>
                     </div>

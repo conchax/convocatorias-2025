@@ -616,8 +616,8 @@ $convoActivo = 7;
 
                                 <p class="text-center d-none"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 <ul class="timeline text-center">
-                                    <li>
-                                        <a class="btn btn-timeline disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 6 al 10 de agosto</p>
                                     </li>
                                     <li>
@@ -807,7 +807,7 @@ $convoActivo = 7;
     <script src="clics_recursos/conteos.js"></script>
 
     <script>
-        jQuery(function() {
+        /*         jQuery(function() {
 
             jQuery(document).ready(function() {
                 jQuery('.collapse').on('show.bs.collapse', function() {
@@ -815,7 +815,7 @@ $convoActivo = 7;
                 });
             });
         });
-    </script>
+    </script> */
     <script>
         jQuery('.modal').on('show.bs.modal', function(event) {
             jQuery(this).find('iframe').attr("src", jQuery(event.relatedTarget).data('url'));

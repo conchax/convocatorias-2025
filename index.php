@@ -87,28 +87,34 @@ $convoActivo = 7;
                 </div>
             </div>
         </div>
-
-        <div class="bg-pausa">
+        <div class="bg-cta">
             <div class="container">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center items-aling-center">
                     <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
                         <img src="assets/img/identidad-G81.webp" alt="G81">
                     </div>
-                    <div class="col-12 col-md-4 ">
-                        <div class="prox mb-4 ps-md-5 ps-4">
-                            Próxima convocatoria
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="mb-4 ">
+                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta.png" alt="btn"></a>
                         </div>
-                        <p class="fecha mb-4 ps-md-5 ps-4 text-start"><b>Regístrate</b> del 18 al 29 de agosto</p>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
-                    </div>
+                        <p class="fecha mb-4">del 18 al 29 de agosto</p>
+                        <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
 
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-md-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></div>
+                                    <div class="col-6 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></div>
+                                    <div class="col-12 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
+        
+        
 
         <div class="container">
             <div class="row mt-4">
@@ -582,8 +588,8 @@ $convoActivo = 7;
                                         <p>del 7 de julio <br>
                                             al 10 de agosto</p>
                                     </li>
-                                    <li>
-                                        <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 15 al 27 de agosto</p>
                                     </li>
                                     <li class="last">
@@ -807,7 +813,7 @@ $convoActivo = 7;
     <script src="clics_recursos/conteos.js"></script>
 
     <script>
-        /*         jQuery(function() {
+        jQuery(function() {
 
             jQuery(document).ready(function() {
                 jQuery('.collapse').on('show.bs.collapse', function() {
@@ -815,7 +821,7 @@ $convoActivo = 7;
                 });
             });
         });
-    </script> */
+    </script> 
     <script>
         jQuery('.modal').on('show.bs.modal', function(event) {
             jQuery(this).find('iframe').attr("src", jQuery(event.relatedTarget).data('url'));

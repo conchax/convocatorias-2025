@@ -117,22 +117,18 @@ $convoActivo = 7;
         
 
         <div class="container">
-            <div class="row mt-4">
-                <div class="col-12 col-md-4">
+            <div class="row justify-content-center mt-4">
+                <div class="col-12 col-md-3">
                     <p class="text-center">
                         <a class="bottom-play" href="https://www.youtube.com/embed/Afgz--5J90g?si=oQE_f46cZXHurLgg" data-bs-toggle="modal" data-bs-target="#como-registro" data-url="https://www.youtube.com/embed/Afgz--5J90g?si=KOQ1nnsBFHI7bDRH" onclick="conteo_recurso(8)"><i class="fa-regular fa-circle-play"></i> ¿Cómo me registro?</a>
                     </p>
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-3">
                     <p class="text-center">
                         <a class="bottom-play" href="https://www.youtube.com/embed/As4OIoEMxrY?si=aVotQrc_S0k8TYKd" data-bs-toggle="modal" data-bs-target="#des-curp" data-url="https://www.youtube.com/embed/As4OIoEMxrY?si=aVotQrc_S0k8TYKd" onclick="conteo_recurso(10)"><i class="fa-regular fa-circle-play"></i> ¿Cómo descargo mi CURP?</a>
                     </p>
                 </div>
-                <div class="col-12 col-md-4">
-                    <p class="text-center">
-                        <a class="bottom-play" href="https://www.youtube.com/embed/J43cE93wlbM?si=PgDkqE6FkBM3lhqR" data-bs-toggle="modal" data-bs-target="#des-acta" data-url="https://www.youtube.com/embed/J43cE93wlbM?si=PgDkqE6FkBM3lhqR" onclick="conteo_recurso(11)"><i class="fa-regular fa-circle-play"></i> ¿Cómo descargo mi acta de nacimiento?</a>
-                    </p>
-                </div>
+                
             </div>
         </div>
     </section>

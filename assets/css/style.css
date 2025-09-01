@@ -1,9 +1,9 @@
 :root{
-    --color-primary: #104876;
-    --color-secondary: #3DB28A;
+    --color-primary: #3AA8B7;
+    --color-secondary: #E5922D;
     --color-complementary: #FBFDFC;
-    --color-text:#142D46;
-    --bg-fondo:#FBFDFC;
+    --color-text:#362F2D;
+    --bg-fondo:#FEF1EE;
 }
 body{
 font-family: "Noto Sans", serif;
@@ -76,6 +76,9 @@ header{
     color: var(--color-primary);
     font-weight: 700;
     line-height: 48px;
+}
+.n{
+    font-size: 60px!important;
 }
 .btn-cta{
     transition: all .4s ease-out; 
@@ -452,6 +455,10 @@ iframe.pdf{
     }
     .infog{
         width: 100%;
+    }
+    .n{
+        font-size: 44px!important;
+        line-height: 38px!important;
     }
  }
 

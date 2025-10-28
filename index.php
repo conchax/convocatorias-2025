@@ -451,11 +451,11 @@ $convoActivo = 9;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-82/guia_aspirante_g82.pdf"></iframe>
+                            <iframe class="pdf" src="kit-83/guia_aspirante_g83.pdf"></iframe>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-82/guia_aspirante_g82.pdf" download="PL-SEP_Convo2025-G82-guia_aspirante.pdf" onclick="conteo_recurso(4)">
+                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_aspirante.pdf" onclick="conteo_recurso(4)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>

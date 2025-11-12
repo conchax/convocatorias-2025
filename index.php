@@ -6,12 +6,12 @@ $secB = 7;
 $secC = 8;
 $convoActivo = 9;
 
- if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo83air") {
+/*  if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo83air") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;
-} 
+}  */
 ?>
 
 <!doctype html>
@@ -451,11 +451,11 @@ $convoActivo = 9;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-82/guia_aspirante_g82.pdf"></iframe>
+                            <iframe class="pdf" src="kit-83/guia_aspirante_g83.pdf"></iframe>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-82/guia_aspirante_g82.pdf" download="PL-SEP_Convo2025-G82-guia_aspirante.pdf" onclick="conteo_recurso(4)">
+                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_aspirante.pdf" onclick="conteo_recurso(4)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -569,12 +569,12 @@ $convoActivo = 9;
                                 <div class="text-center"> <img src="assets/img/identidad-G82.webp" height="140" alt="G82"></div>
 
                                 <ul class="timeline text-center">
-                                    <li>
+                                    <li >
                                         <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 31 de octubre<br>al 2 de noviembre</p>
                                     </li>
-                                    <li>
-                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
                                         <p>del 3 al  12 de noviembre
                                             </p>
                                     </li>

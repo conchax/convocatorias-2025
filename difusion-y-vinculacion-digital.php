@@ -512,12 +512,12 @@
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-81/guia_aspirante_g81.pdf"></iframe>
+                            <iframe class="pdf" src="kit-83/guia_aspirante_g83.pdf"></iframe>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <p>Fecha sugerida de publicación <b>18 de agosto </b></p>
-                                <a class="btn btn-labeled" href="kit-81/guia_aspirante_g81.pdf" download="PL-SEP_Convo2025-G81-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
+                                <p>Fecha sugerida de publicación <b>17 de noviembre </b></p>
+                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -579,12 +579,12 @@
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-81/banner_portal_registrate.png" alt=" Registrte">Fecha sugerida de publicación <b>18 de agosto </b></div>
-                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-81/banner_portal_cerrada.png" alt="Cerrada ">Fecha sugerida de publicación <b>30 de agosto </b></div>
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-83/banner_portal_proxima.png" alt=" Registrte">Fecha sugerida de publicación <b>30 de octubre </b></div>
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-83/banner_portal_abierta.png" alt="Cerrada ">Fecha sugerida de publicación <b>17 de noviembre </b></div>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-81/banners_portal_g81.zip" download="PL-SEP_Convo2025-G81-banners-portal.zip" onclick="conteo_recurso(32)">
+                                <a class="btn btn-labeled" href="kit-83/banners_portal_g83.zip" download="PL-SEP_Convo2025-G83-banners-portal.zip" onclick="conteo_recurso(32)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>

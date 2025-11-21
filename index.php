@@ -583,8 +583,8 @@ $convoActivo = 9;
                                         <p>del 3 al  12 de noviembre
                                             </p>
                                     </li>
-                                    <li class="enproceso">
-                                        <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
+                                    <li>
+                                        <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 14 al 19 de noviembre</p>
                                     </li>
                                     <li class="last">

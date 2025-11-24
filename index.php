@@ -146,29 +146,30 @@ $convoActivo = 10;
     <section class="sigue-proceso my-4">
         <div class="container">
             <div class="row justify-content-center">
-
-                <div class="col-12 col-md-4 mb-4 d-none">
-                    <div class="card-convo">
-                        <img src="assets/img/identidad-G80.webp" height="140" alt="convocatoria 80">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card-convo">
-                        <img src="assets/img/identidad-G81.webp" height="140" alt="convocatoria 81">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
-                    </div>
-                </div>
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
                         <img src="assets/img/identidad-G82.webp" height="140" alt="convocatoria 82">
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
                     </div>
-                </div> 
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card-convo">
+                        <img src="assets/img/identidad-G83.webp" height="140" alt="convocatoria 83">
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4 d-none">
+                    <div class="card-convo">
+                        <img src="assets/img/identidad-G81.webp" height="140" alt="convocatoria 81">
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
+                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
+                    </div>
+                </div>
+                 
             </div>
         </div>
     </section>
@@ -180,8 +181,6 @@ $convoActivo = 10;
             </div>
         </div>
     </div>
-
-
 
     <section>
         <div class="container">
@@ -201,7 +200,7 @@ $convoActivo = 10;
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 text-md-end text-center">
                     <div class="pe-md-5 mb-4">
-                        <a href="https://youtube.com/live/qazZTIxALEI?feature=share" target="_blank" class="btn-sesiones">
+                        <a href="https://youtube.com/live/-VXK3z8JBck?feature=share" target="_blank" class="btn-sesiones">
                             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.5449 0.0432272C43.6249 -1.10677 56.9449 20.9232 46.3249 38.1432C36.4249 54.2032 12.8149 53.8932 3.37493 37.5532C-5.93507 21.4532 5.06492 1.10323 23.5449 0.0432272ZM23.1249 1.50323C4.72492 2.72323 -4.98507 24.5932 6.22493 39.2932C17.5549 54.1632 41.0449 50.5232 47.2449 32.9232C52.9949 16.6332 40.1849 0.373227 23.1249 1.50323Z" fill="var(--color-primary)" />
                                 <path d="M31.1748 12.5234V26.1234C30.4848 26.4334 29.7548 26.6034 29.0648 26.9334C28.4248 27.2434 27.8748 27.6934 27.2548 28.0534C24.7848 27.4134 22.2648 27.1034 19.7048 27.2234V14.9234C21.8648 14.9834 23.8648 14.9534 25.9748 14.4734C27.7948 14.0634 29.4848 13.3134 31.1648 12.5234H31.1748Z" fill="var(--color-primary)" />
@@ -216,7 +215,7 @@ $convoActivo = 10;
                             <span class="name">
                                 1.ª sesión informativa <br>
                                 <span class="date">
-                                    18 de noviembre a las 16:00 horas
+                                    16 de diciembre a las 16:00 horas
                                 </span>
                             </span>
                             <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -227,7 +226,7 @@ $convoActivo = 10;
                 </div>
                 <div class="col-12 col-md-6 text-md-start text-center">
                     <div class="ps-md-5">
-                        <a href="https://youtube.com/live/iWFWe4xvNKo?feature=share" target="_blank" class="btn-sesiones">
+                        <a href="https://youtube.com/live/Hi1ncu0e9Fc?feature=share" target="_blank" class="btn-sesiones">
                             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.5997 0.0432272C43.6797 -1.10677 56.9997 20.9232 46.3797 38.1432C36.4797 54.2032 12.8697 53.8932 3.4297 37.5532C-6.0103 21.2132 5.1197 1.10323 23.5997 0.0432272ZM23.1797 1.50323C4.7797 2.72323 -4.9303 24.5932 6.2797 39.2932C17.6097 54.1632 41.0997 50.5232 47.2997 32.9232C53.0497 16.6332 40.2397 0.373227 23.1797 1.50323Z" fill="var(--color-primary)" />
                                 <path d="M31.2298 12.5234V26.1234C30.5398 26.4334 29.8098 26.6034 29.1198 26.9334C28.4798 27.2434 27.9298 27.6934 27.3098 28.0534C24.8398 27.4134 22.3198 27.1034 19.7598 27.2234V14.9234C21.9198 14.9834 23.9198 14.9534 26.0298 14.4734C27.8498 14.0634 29.5398 13.3134 31.2198 12.5234H31.2298Z" fill="var(--color-primary)" />
@@ -242,7 +241,7 @@ $convoActivo = 10;
                             <span class="name">
                                 2.ª sesión informativa <br>
                                 <span class="date">
-                                    27 de noviembre a las 16:00 horas
+                                    8 de enero a las 16:00 horas
                                 </span>
                             </span>
                             <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -420,12 +419,12 @@ $convoActivo = 10;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-83/bases_g83.pdf"></iframe>
+                            <iframe class="pdf" src="kit-84/bases_g84.pdf"></iframe>
                         </div>
 
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-83/bases_g83.pdf" download="PL-SEP_Convo2025-G83-bases.pdf" onclick="conteo_recurso(3)">
+                                <a class="btn btn-labeled" href="kit-84/bases_g84.pdf" download="PL-SEP_Convo2025-G84-bases.pdf" onclick="conteo_recurso(3)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -450,11 +449,11 @@ $convoActivo = 10;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-83/guia_aspirante_g83.pdf"></iframe>
+                            <iframe class="pdf" src="kit-84/guia_aspirante_g84.pdf"></iframe>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_aspirante.pdf" onclick="conteo_recurso(4)">
+                                <a class="btn btn-labeled" href="kit-84/guia_aspirante_g84.pdf" download="PL-SEP_Convo2025-G84-guia_aspirante.pdf" onclick="conteo_recurso(4)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -506,12 +505,12 @@ $convoActivo = 10;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-80/guia_aspirante_g80.pdf"></iframe>
+                            <iframe class="pdf" src="kit-83/guia_aspirante_g83.pdf"></iframe>
                         </div>
 
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-80/guia_aspirante_g80.pdf" download="PL-SEP_Convo2025-G80-guia_registro.pdf" onclick="conteo_recurso(21)">
+                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_registro.pdf" onclick="conteo_recurso(21)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -581,8 +580,8 @@ $convoActivo = 10;
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 14 al 19 de noviembre</p>
                                     </li>
-                                    <li class="last">
-                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(15,<?php echo $secA; ?>)">Cursa el módulo 1</a>
+                                    <li class="last enproceso">
+                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(15,<?php echo $secA; ?>)">Cursa el módulo 1</a>
                                         <p>del 24 de noviembre <br>al 21 de diciembre  <span style="color: transparent;">.</span> </p>
                                     </li>
                                 </ul>
@@ -607,27 +606,26 @@ $convoActivo = 10;
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-10">
-                                <div class="text-center"> <img src="assets/img/identidad-G80.webp" height="140" alt="G80"></div>
+                                <div class="text-center"> <img src="assets/img/identidad-G83.webp" height="140" alt="G83"></div>
 
                                 <p class="text-center d-none"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 <ul class="timeline text-center">
                                     <li>
                                         <a class="btn btn-timeline disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
-                                        <p>del 6 al 10 de agosto</p>
+                                        <p>del 28 al 30 de noviembre</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
-                                        <p>del 11 de agosto <br>
-                                            al 7 de septiembre</p>
+                                        <p>del 1 al 10 de diciembre</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(19,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
-                                        <p>del 12 al 24 de septiembre</p>
+                                        <p>del 12 al 17 de diciembre</p>
                                     </li>
                                     <li class="last">
                                         <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(20,<?php echo $secB; ?>)">Cursa el módulo 1</a>
-                                        <p>del 29 de septiembre <br>
-                                            al 26 de octubre</p>
+                                        <p>del 5 de enero <br>
+                                            al 1 de febrero</p>
                                     </li>
                                 </ul>
                             </div>
@@ -668,8 +666,8 @@ $convoActivo = 10;
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 10 al 22 de octubre</p>
                                     </li>
-                                    <li lass="last enproceso">
-                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                                    <li lass="last">
+                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
                                         <p>del 27 de octubre <br> al 23 de noviembre</p>
                                     </li>
                                 </ul>

@@ -6,12 +6,12 @@ $secB = 8;
 $secC = 9;
 $convoActivo = 10;
 
-  /* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo83air") {
+   if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo84air") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;
-    } */  
+    } 
 ?>
 
 <!doctype html>
@@ -156,7 +156,7 @@ $convoActivo = 10;
 
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
-                        <img src="assets/img/identidad-G83.webp" height="140" alt="convocatoria 83">
+                        <img src="assets/img/identidad-g83.webp" height="140" alt="convocatoria 83">
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
                     </div>
@@ -606,7 +606,7 @@ $convoActivo = 10;
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-10">
-                                <div class="text-center"> <img src="assets/img/identidad-G83.webp" height="140" alt="G83"></div>
+                                <div class="text-center"> <img src="assets/img/identidad-g83.webp" height="140" alt="G83"></div>
 
                                 <p class="text-center d-none"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 <ul class="timeline text-center">

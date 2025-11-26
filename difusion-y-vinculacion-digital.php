@@ -156,7 +156,7 @@
 
                     <div class="card-copy-text rc">
                         <div class="text-center mb-3">Copy sugerido</div>
-                        <p class="parrafo-s text-break" id="copy">¡Prepárate para un futuro exitoso! Regístrate del 15 de diciembre al 5 de enero en https://prepaenlinea.sep.gob.mx/convocatorias-2025/</p>
+                        <p class="parrafo-s text-break" id="copy">¡Prepárate para un futuro exitoso! Regístrate del 15 de diciembre al 7 de enero en https://prepaenlinea.sep.gob.mx/convocatorias-2025/</p>
                         <a class="btn bottom-copy" id="buttoncopy" onclick="conteo_recurso(35)"><i class="fa-regular fa-copy"></i> Copiar copy</a>
                     </div>
 
@@ -517,7 +517,7 @@
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
                                 <p>Fecha sugerida de publicación <b>15 de diciembre </b></p>
-                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
+                                <a class="btn btn-labeled" href="kit-84/guia_aspirante_g84.pdf" download="PL-SEP_Convo2025-G83-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -554,7 +554,7 @@
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
                                 <p>Fecha sugerida de publicación <b>15 de diciembre </b></p>
-                                <a class="btn btn-labeled" href="kit-83/portadas_RRSS_g83.zip" download="PL-SEP_Convo2025-G83-portadas_rrss.zip" onclick="conteo_recurso(31)">
+                                <a class="btn btn-labeled" href="kit-84/portadas_RRSS_g84.zip" download="PL-SEP_Convo2025-G84-portadas_rrss.zip" onclick="conteo_recurso(31)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>

@@ -6,12 +6,12 @@ $secB = 8;
 $secC = 9;
 $convoActivo = 10;
 
-   if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo84air") {
+/*    if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo84air") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
     header('HTTP/1.0 401 Unauthorized');
     echo 'Authorization Required To Server.';
     exit;
-    } 
+    }  */
 ?>
 
 <!doctype html>
@@ -115,7 +115,7 @@ $convoActivo = 10;
                     <p class="text-center">
                         <a class="bottom-play" href="https://www.youtube.com/embed/Afgz--5J90g?si=oQE_f46cZXHurLgg" data-bs-toggle="modal" data-bs-target="#como-registro" data-url="https://www.youtube.com/embed/Afgz--5J90g?si=KOQ1nnsBFHI7bDRH" onclick="conteo_recurso(8)"><i class="fa-regular fa-circle-play"></i> ¿Cómo me registro?</a>
                     </p>
-                </div>                                                                                      
+                </div>
                 <div class="col-12 col-md-3">
                     <p class="text-center">
                         <a class="bottom-play" href="https://www.youtube.com/embed/As4OIoEMxrY?si=aVotQrc_S0k8TYKd" data-bs-toggle="modal" data-bs-target="#des-curp" data-url="https://www.youtube.com/embed/As4OIoEMxrY?si=aVotQrc_S0k8TYKd" onclick="conteo_recurso(10)"><i class="fa-regular fa-circle-play"></i> ¿Cómo descargo mi CURP?</a>
@@ -169,7 +169,7 @@ $convoActivo = 10;
                         <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
                     </div>
                 </div>
-                 
+
             </div>
         </div>
     </section>
@@ -567,14 +567,14 @@ $convoActivo = 10;
                                 <div class="text-center"> <img src="assets/img/identidad-G82.webp" height="140" alt="G82"></div>
 
                                 <ul class="timeline text-center">
-                                    <li >
+                                    <li>
                                         <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 31 de octubre<br>al 2 de noviembre</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
-                                        <p>del 3 al  12 de noviembre
-                                            </p>
+                                        <p>del 3 al 12 de noviembre
+                                        </p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
@@ -582,7 +582,7 @@ $convoActivo = 10;
                                     </li>
                                     <li class="last enproceso">
                                         <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(15,<?php echo $secA; ?>)">Cursa el módulo 1</a>
-                                        <p>del 24 de noviembre <br>al 21 de diciembre  <span style="color: transparent;">.</span> </p>
+                                        <p>del 24 de noviembre <br>al 21 de diciembre <span style="color: transparent;">.</span> </p>
                                     </li>
                                 </ul>
                             </div>
@@ -610,8 +610,8 @@ $convoActivo = 10;
 
                                 <p class="text-center d-none"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 <ul class="timeline text-center">
-                                    <li>
-                                        <a class="btn btn-timeline disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 28 al 30 de noviembre</p>
                                     </li>
                                     <li>

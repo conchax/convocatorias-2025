@@ -88,27 +88,36 @@ $convoActivo = 10;
             </div>
         </div>
 
-        <div class="bg-pausa">
+        <div class="bg-cta">
             <div class="container">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center items-aling-center">
                     <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
                         <img src="assets/img/identidad-G84.png" alt="G84">
                     </div>
-                    <div class="col-12 col-md-4 ">
-                        <div class="prox mb-4 ps-md-5 ps-4">
-                            Próxima convocatoria
+                    <div class="col-12 col-md-6 text-center">
+                        <div class="mb-4 ">
+                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta84.png" alt="btn"></a>
                         </div>
-                        <p class="fecha mb-4 ps-md-5 ps-4 text-start"><b>Regístrate</b> del 15 de diciembre al 7 de enero</p>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
-                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
+                        <p class="fecha mb-4">del 15 de diciembre al 7 de enero</p>
+                        <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
+
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="row justify-content-center">
+                                    <div class="col-6 col-md-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></div>
+                                    <div class="col-6 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></div>
+                                    <div class="col-12 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
             </div>
+
         </div>
+
+
         <div class="container">
             <div class="row justify-content-center mt-4">
                 <div class="col-12 col-md-3">
@@ -614,12 +623,12 @@ $convoActivo = 10;
                                         <a class="btn btn-timeline disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 28 al 30 de noviembre</p>
                                     </li>
-                                    <li class="enproceso">
-                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
+                                    <li >
+                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
                                         <p>del 1 al 10 de diciembre</p>
                                     </li>
-                                    <li>
-                                        <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(19,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(19,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 12 al 17 de diciembre</p>
                                     </li>
                                     <li class="last">

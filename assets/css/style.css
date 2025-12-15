@@ -1,9 +1,9 @@
 :root{
-    --color-primary: #0092CC;
-    --color-secondary: #E6227F;
+    --color-primary: #E56461;
+    --color-secondary: #B7B732;
     --color-complementary: #FBFDFC;
-    --color-text:#351224;
-    --bg-fondo:#FDF2F8;
+    --color-text:#351515;
+    --bg-fondo:#FFF5F5;
 }
 body{
 font-family: "Noto Sans", serif;

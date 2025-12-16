@@ -100,7 +100,7 @@
         <div class="row justify-content-center">
             <div class="col-12-col-md-6 mb-4">
 
-                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>84</b></span> inicia el 15  de diciembre al 7 de enero.</p>
+                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>85</b></span> inicia el 26  de enero al 4 de febrero.</p>
             </div>
         </div>
     </div>
@@ -150,13 +150,13 @@
                     </a>
                     <div class="card-copy-text rc">
                         <div class="text-center mb-3">Video spot</div>
-                        <p class="parrafo-s" id="videospot">https://www.youtube.com/watch?v=DagnMhP96UY</p>
+                        <p class="parrafo-s" id="videospot">https://youtu.be/gq6SqOkr5og</p>
                         <a class="btn bottom-copy" id="buttonVideospot" onclick="conteo_recurso(34)"><i class="fa-regular fa-copy"></i> Copiar enlace</a>
                     </div>
 
                     <div class="card-copy-text rc">
                         <div class="text-center mb-3">Copy sugerido</div>
-                        <p class="parrafo-s text-break" id="copy">¡Prepárate para un futuro exitoso! Regístrate del 15 de diciembre al 7 de enero en https://prepaenlinea.sep.gob.mx/convocatorias-2025/</p>
+                        <p class="parrafo-s text-break" id="copy">¡Prepárate para un futuro exitoso! Regístrate del 26 de enero al 4 de febrero en https://prepaenlinea.sep.gob.mx/convocatorias-2025/</p>
                         <a class="btn bottom-copy" id="buttoncopy" onclick="conteo_recurso(35)"><i class="fa-regular fa-copy"></i> Copiar copy</a>
                     </div>
 
@@ -449,13 +449,13 @@
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-84/bases_g84.pdf"></iframe>
+                            <iframe class="pdf" src="kit-85/bases_g85.pdf"></iframe>
                         </div>
 
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <p>Fecha sugerida de publicación <b>15 de diciembre </b></p>
-                                <a class="btn btn-labeled" href="kit-84/bases_g84.pdf" download="PL-SEP_Convo2025-G84-bases.pdf" onclick="conteo_recurso(28)">
+                                <p>Fecha sugerida de publicación <b>26 de enero </b></p>
+                                <a class="btn btn-labeled" href="kit-85/bases_g85.pdf" download="PL-SEP_Convo2025-G85-bases.pdf" onclick="conteo_recurso(28)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -480,14 +480,14 @@
                     <div class="container fluid">
                         <div class="row justify-content-center">
                             <div class="col-12-col-md-8 text-center">
-                                <img class="infog" src="kit-84/infografia_g84.png" alt="infografia">
+                                <img class="infog" src="kit-85/infografia_g85.png" alt="infografia">
                             </div>
                         </div>
 
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <p>Fecha sugerida de publicación <b>15 de diciembre </b></p>
-                                <a class="btn btn-labeled" href="kit-84/infografia_g84.png" download="PL-SEP_Convo2025-G84-infografia.png" onclick="conteo_recurso(30)">
+                                <p>Fecha sugerida de publicación <b>26 de enero </b></p>
+                                <a class="btn btn-labeled" href="kit-85/infografia_g85.png" download="PL-SEP_Convo2025-G85-infografia.png" onclick="conteo_recurso(30)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -512,12 +512,12 @@
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-84/guia_aspirante_g84.pdf"></iframe>
+                            <iframe class="pdf" src="kit-85/guia_aspirante_g85.pdf"></iframe>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <p>Fecha sugerida de publicación <b>15 de diciembre </b></p>
-                                <a class="btn btn-labeled" href="kit-84/guia_aspirante_g84.pdf" download="PL-SEP_Convo2025-G83-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
+                                <p>Fecha sugerida de publicación <b>26 de enero </b></p>
+                                <a class="btn btn-labeled" href="kit-85/guia_aspirante_g85.pdf" download="PL-SEP_Convo2025-G85-guia_del_aspirante.pdf" onclick="conteo_recurso(29)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -541,20 +541,20 @@
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-12 col-md-6 text-center">Facebook<img class="img-fluid" src="kit-84/P_FB.png" alt="Portada Facebook"></div>
-                            <div class="col-12 col-md-6 text-center">X<img class="img-fluid" src="kit-84/P_X.png" alt="Portada X"></div>
+                            <div class="col-12 col-md-6 text-center">Facebook<img class="img-fluid" src="kit-85/P_FB.png" alt="Portada Facebook"></div>
+                            <div class="col-12 col-md-6 text-center">X<img class="img-fluid" src="kit-85/P_X.png" alt="Portada X"></div>
                         </div>
 
                         <div class="row justify-content-center align-items-center m-4">
                             <div class="col-12 col-md-6 text-center">
                                 <p>Spotify</p>
-                                <img class="img-fluid" width="300" src="kit-84/P_Spotify.png" alt="Portada spotify">
+                                <img class="img-fluid" width="300" src="kit-85/P_Spotify.png" alt="Portada spotify">
                             </div>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <p>Fecha sugerida de publicación <b>15 de diciembre </b></p>
-                                <a class="btn btn-labeled" href="kit-84/portadas_RRSS_g84.zip" download="PL-SEP_Convo2025-G84-portadas_rrss.zip" onclick="conteo_recurso(31)">
+                                <p>Fecha sugerida de publicación <b>26 de enero </b></p>
+                                <a class="btn btn-labeled" href="kit-85/portadas_RRSS.zip" download="PL-SEP_Convo2025-G85-portadas_rrss.zip" onclick="conteo_recurso(31)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -579,12 +579,12 @@
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-84/banner_portal_proxima.png" alt=" Registrte">Fecha sugerida de publicación <b>27 de noviembre </b></div>
-                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-84/banner_portal_abierta.png" alt="Cerrada ">Fecha sugerida de publicación <b>15 de diciembre </b></div>
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-85/banner_portal_proxima.png" alt=" Registrte">Fecha sugerida de publicación <b>8 de enero </b></div>
+                            <div class="col-12 col-md-6 text-center mb-4"><img class="img-fluid" src="kit-85/banner_portal_abierta.png" alt="Cerrada ">Fecha sugerida de publicación <b>26 de enero </b></div>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-84/banners_portal_g84.zip" download="PL-SEP_Convo2025-G84-banners-portal.zip" onclick="conteo_recurso(32)">
+                                <a class="btn btn-labeled" href="kit-85/banners_portal_g85.zip" download="PL-SEP_Convo2025-G85-banners-portal.zip" onclick="conteo_recurso(32)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -608,19 +608,17 @@
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center align-items-center">
-                            <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-84/cartel_horizontal.png" alt="Portada Facebook">Cartel horizontal</div>
-                            <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-84/cartel_vertical.png" alt="Portada X">Cartel vertical</div>
-
+                            <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-85/cartel_horizontal.png" alt="Portada Facebook">Cartel horizontal</div>
+                            <div class="col-12 col-md-4 text-center"><img class="img-fluid" src="kit-85/cartel_vertical.png" alt="Portada X">Cartel vertical</div>
                         </div>
 
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <p>Fecha sugerida de publicación <b>15 de diciembre </b></p>
-                                <a class="btn btn-labeled" href="kit-84/carteles_g84.zip" download="PL-SEP_Convo2025-G84-cartel.zip" onclick="conteo_recurso(33)">
+                                <p>Fecha sugerida de publicación <b>26 de enero </b></p>
+                                <a class="btn btn-labeled" href="kit-85/carteles_g85.zip" download="PL-SEP_Convo2025-G85-cartel.zip" onclick="conteo_recurso(33)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
-
                             </div>
                         </div>
                     </div>
@@ -628,9 +626,6 @@
             </div>
         </div>
     </div>
-
-
-
 
     <script type="text/javascript" src="https://prepaenlinea.sep.gob.mx/wp-content/themes/PL-SEP-2024/js/pls.min.js?ver=6.4.1" id="plsep-js-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

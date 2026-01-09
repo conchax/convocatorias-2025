@@ -655,8 +655,8 @@ $convoActivo = 11;
                                 <p class="text-center d-none"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 <ul class="timeline text-center">
 
-                                    <li>
-                                        <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
+                                    <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
                                         <p>del 9 al 11 de enero</p>
                                     </li>
                                     <li>

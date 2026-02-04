@@ -1,6 +1,6 @@
 :root{
-    --color-primary: #E56461;
-    --color-secondary: #B7B732;
+    --color-primary: #9da73d;
+    --color-secondary: #474747;
     --color-complementary: #FBFDFC;
     --color-text:#351515;
     --bg-fondo:#FFF5F5;
@@ -90,7 +90,7 @@ header{
 .fecha{
     font-size: 24px;
     font-weight: 500;
-    text-align: center;
+
 }
 .btn-estatus{
     border: 1px solid var(--color-primary);
@@ -410,6 +410,26 @@ iframe.pdf{
     font-size: 14px;
     border-top: 1px solid var(--color-primary);
  }
+
+
+ .slick-prev:before, .slick-next:before {
+    color: #6c757d;
+}
+.prop{
+    font-size: 30px;
+    color: #474747;
+    font-weight: 600;
+}
+.prop span{
+    font-size: 140px;
+    color: #474747;
+    font-weight: 900;
+    line-height: 130px;
+}
+.rota-horizontal{
+    transform: scaleX(-1);
+}
+
 @media (max-width: 575.98px) { 
     header{
         height: auto;
@@ -422,6 +442,10 @@ iframe.pdf{
         left: 0px;
         text-align: center;
     }
+    .prop, .prox {
+        text-align: center;
+    }
+    
     .text-bottom {
         width: 200px;
     }
@@ -461,7 +485,3 @@ iframe.pdf{
         line-height: 38px!important;
     }
  }
-
- .slick-prev:before, .slick-next:before {
-    color: #6c757d;
-}

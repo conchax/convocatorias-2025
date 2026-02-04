@@ -1,10 +1,10 @@
 <?php
 // VARIABLES CON LOS ID DE LAS CONVOCATORIAS QUE VAN A IR 
 // CAMBIANDO ACORDE A LA SECCION EN LA QUE SE ENCUENTRE (A,B,C)
-$secA = 8;
-$secB = 9;
-$secC = 10;
-$convoActivo = 11;
+$secA = 9;
+$secB = 10;
+$secC = 11;
+$convoActivo = 12;
 
 /* if ($_SERVER['PHP_AUTH_USER'] != "PrepaLSEP" || $_SERVER['PHP_AUTH_PW'] != "convo85prox") {
     header('WWW-Authenticate: Basic realm="Ingrese su usario y contraseña asignada"');
@@ -88,43 +88,42 @@ $convoActivo = 11;
             </div>
         </div>
 
-        <div class="bg-cta">
+        <div class="bg-pausa">
             <div class="container">
-                <div class="row justify-content-center items-aling-center">
-                    <div class="col-12 col-md-5 text-end  mb-4 mb-sm-0">
-                        <img src="assets/img/identidad-g85.png" alt="G85">
+                <div class="row justify-content-center align-items-center">
+                     <div class="col-12 col-md-3 text-end  mb-4 mb-sm-0">
+                        <img class="rota-horizontal" src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2026/02/Recurso-5.webp" height="310" alt="G83">
                     </div>
-                    <div class="col-12 col-md-6 text-center">
-                        <div class="mb-4 ">
-                            <a href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(1,<?php echo $convoActivo ?>)"><img class="btn-cta" src="assets/img/btn-cta85.png" alt="btn"></a>
-                        </div>
-                        <p class="fecha mb-4">del 26 de enero al 4 de febrero</p>
-                        <p><a class="btn btn-estatus mb-4" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
-
-                        <div class="row justify-content-center">
-                            <div class="col-12">
-                                <div class="row justify-content-center">
-                                    <div class="col-6 col-md-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></div>
-                                    <div class="col-6 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></div>
-                                    <div class="col-12 col-md-4 mb-4"><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="col-12 col-md-2 text-center  mb-4 mb-sm-0">
+                       <p class="prop"> Generación <br> <span>86</span></p>
                     </div>
+                    <div class="col-12 col-md-3 text-start">
+                        <div class="prox mb-4 ">
+                            Próxima convocatoria
+                        </div>
+                        <p class="fecha mb-4"><b>Regístrate</b> del 23 de febrero al 4 de marzo</p>
+                    </div>
+                   <!--  <div class="col-12 col-md-3 d-none">
+                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
+                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
+                        <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
+                    </div> -->
 
                 </div>
             </div>
-        </div>
+        </div> 
+
+
 
         <div class="container">
             <div class="row justify-content-center mt-4">
                 <div class="col-12 col-md-3">
-                    <p class="text-center">
+                    <p class="text-md-end text-center">
                         <a class="bottom-play" href="https://www.youtube.com/embed/Afgz--5J90g?si=oQE_f46cZXHurLgg" data-bs-toggle="modal" data-bs-target="#como-registro" data-url="https://www.youtube.com/embed/Afgz--5J90g?si=KOQ1nnsBFHI7bDRH" onclick="conteo_recurso(8)"><i class="fa-regular fa-circle-play"></i> ¿Cómo me registro?</a>
                     </p>
                 </div>
                 <div class="col-12 col-md-3">
-                    <p class="text-center">
+                    <p class="text-md-start text-center">
                         <a class="bottom-play" href="https://www.youtube.com/embed/As4OIoEMxrY?si=aVotQrc_S0k8TYKd" data-bs-toggle="modal" data-bs-target="#des-curp" data-url="https://www.youtube.com/embed/As4OIoEMxrY?si=aVotQrc_S0k8TYKd" onclick="conteo_recurso(10)"><i class="fa-regular fa-circle-play"></i> ¿Cómo descargo mi CURP?</a>
                     </p>
                 </div>
@@ -217,7 +216,7 @@ $convoActivo = 11;
             <div class="row justify-content-center">
                 <div class="col-12 col-md-6 text-md-end text-center">
                     <div class="pe-md-5 mb-4">
-                        <a href="https://youtube.com/live/frRBY1qWpEo?feature=share" target="_blank" class="btn-sesiones">
+                        <a href="https://youtube.com/live/3-OBdqGUmsg?si=XL7S2YXxDhOxo3S7" target="_blank" class="btn-sesiones">
                             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.5449 0.0432272C43.6249 -1.10677 56.9449 20.9232 46.3249 38.1432C36.4249 54.2032 12.8149 53.8932 3.37493 37.5532C-5.93507 21.4532 5.06492 1.10323 23.5449 0.0432272ZM23.1249 1.50323C4.72492 2.72323 -4.98507 24.5932 6.22493 39.2932C17.5549 54.1632 41.0449 50.5232 47.2449 32.9232C52.9949 16.6332 40.1849 0.373227 23.1249 1.50323Z" fill="var(--color-primary)" />
                                 <path d="M31.1748 12.5234V26.1234C30.4848 26.4334 29.7548 26.6034 29.0648 26.9334C28.4248 27.2434 27.8748 27.6934 27.2548 28.0534C24.7848 27.4134 22.2648 27.1034 19.7048 27.2234V14.9234C21.8648 14.9834 23.8648 14.9534 25.9748 14.4734C27.7948 14.0634 29.4848 13.3134 31.1648 12.5234H31.1748Z" fill="var(--color-primary)" />
@@ -232,7 +231,7 @@ $convoActivo = 11;
                             <span class="name">
                                 1.ª sesión informativa <br>
                                 <span class="date">
-                                    27 de enero a las 16:00 horas
+                                    24 de febrero a las 13:00 horas
                                 </span>
                             </span>
                             <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -243,7 +242,7 @@ $convoActivo = 11;
                 </div>
                 <div class="col-12 col-md-6 text-md-start text-center">
                     <div class="ps-md-5">
-                        <a href="https://youtube.com/live/olcZgnIdgRA?feature=share" target="_blank" class="btn-sesiones">
+                        <a href="https://youtube.com/live/wxOYxTx261M?si=daBxPR6s4o-OL3XB" target="_blank" class="btn-sesiones">
                             <svg width="51" height="50" viewBox="0 0 51 50" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M23.5997 0.0432272C43.6797 -1.10677 56.9997 20.9232 46.3797 38.1432C36.4797 54.2032 12.8697 53.8932 3.4297 37.5532C-6.0103 21.2132 5.1197 1.10323 23.5997 0.0432272ZM23.1797 1.50323C4.7797 2.72323 -4.9303 24.5932 6.2797 39.2932C17.6097 54.1632 41.0997 50.5232 47.2997 32.9232C53.0497 16.6332 40.2397 0.373227 23.1797 1.50323Z" fill="var(--color-primary)" />
                                 <path d="M31.2298 12.5234V26.1234C30.5398 26.4334 29.8098 26.6034 29.1198 26.9334C28.4798 27.2434 27.9298 27.6934 27.3098 28.0534C24.8398 27.4134 22.3198 27.1034 19.7598 27.2234V14.9234C21.9198 14.9834 23.9198 14.9534 26.0298 14.4734C27.8498 14.0634 29.5398 13.3134 31.2198 12.5234H31.2298Z" fill="var(--color-primary)" />
@@ -258,7 +257,7 @@ $convoActivo = 11;
                             <span class="name">
                                 2.ª sesión informativa <br>
                                 <span class="date">
-                                    5 de febrero a las 16:00 horas
+                                    5 de marzo a las 16:00 horas
                                 </span>
                             </span>
                             <svg width="19" height="32" viewBox="0 0 19 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -279,14 +278,14 @@ $convoActivo = 11;
         </div>
         <div class="container">
             <div class="row justify-content-center mt-4">
-                <div class="col-12 col-md-6 text-md-end text-center ">
+                <!-- <div class="col-12 col-md-6 text-md-end text-center ">
                     <div class="pe-md-5 mb-4">
                         <a class="btn btn-labeled" href="difusion-y-vinculacion-digital.php" target="_blank" onclick="conteo_recurso(5)">
                             <span class="btn-label"><i class="fa-solid fa-bullhorn iconol"></i></span>
                             <div class="text-bottom">Difusión y vinculación</div>
                         </a>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-12 col-md-6 text-md-start text-center"> <!--  -->
                     <div class="text-center"><!-- ps-md-5 -->
                         <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" onclick="conteo_recurso(7)">

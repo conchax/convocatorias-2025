@@ -163,17 +163,27 @@ $convoActivo = 11;
 
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
-                        <img src="assets/img/identidad-g83.webp" height="140" alt="convocatoria 83">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
+                        <p class="d-inline-flex gap-2 align-items-center">
+                            <span><img src="assets/img/identidad-g83.webp" height="140" alt="convocatoria 83"> </span><br>
+                            <span class=" text-start">
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a><br>
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a><br>
+                                <a class="btn-opciones" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank"><i class="fa-solid fa-key"></i> Obtén tus claves de acceso</a>
+                            </span>
+                        </p>
                     </div>
                 </div>
 
                 <div class="col-12 col-md-4 mb-4">
                     <div class="card-convo">
-                        <img src="assets/img/identidad-G84.png" height="140" alt="convocatoria 84">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
+                        <p class="d-inline-flex gap-2 align-items-center">
+                            <span><img src="assets/img/identidad-G84.png" height="140" alt="convocatoria 84"></span><br>
+                            <span class=" text-start">
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a><br>
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a><br>
+                                <a class="btn-opciones" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" ><i class="fa-solid fa-key"></i> Obtén tus claves de acceso</a>
+                            </span>
+                        </p>
                     </div>
                 </div>
 
@@ -669,11 +679,11 @@ $convoActivo = 11;
                                         <p>del 12 al 21 de enero</p>
                                     </li>
                                     <li>
-                                        <a class="btn btn-timeline activo" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
+                                        <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
                                         <p>del 23 al 28 de enero</p>
                                     </li>
                                     <li lass="last">
-                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
                                         <p>del 2 de febrero <br> al 1 de marzo</p>
                                     </li>
                                 </ul>

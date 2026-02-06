@@ -91,11 +91,11 @@ $convoActivo = 12;
         <div class="bg-pausa">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
-                     <div class="col-12 col-md-3 text-end  mb-4 mb-sm-0">
+                    <div class="col-12 col-md-3 text-end  mb-4 mb-sm-0">
                         <img class="rota-horizontal" src="https://prepaenlinea.sep.gob.mx/wp-content/uploads/2026/02/Recurso-5.webp" height="310" alt="G83">
                     </div>
                     <div class="col-12 col-md-2 text-center  mb-4 mb-sm-0">
-                       <p class="prop"> Generación <br> <span>86</span></p>
+                        <p class="prop"> Generación <br> <span>86</span></p>
                     </div>
                     <div class="col-12 col-md-3 text-start">
                         <div class="prox mb-4 ">
@@ -103,7 +103,7 @@ $convoActivo = 12;
                         </div>
                         <p class="fecha mb-4"><b>Regístrate</b> del 23 de febrero al 4 de marzo</p>
                     </div>
-                   <!--  <div class="col-12 col-md-3 d-none">
+                    <!--  <div class="col-12 col-md-3 d-none">
                         <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#requisitos"><i class="fa-solid fa-arrow-down"></i> Requerimientos </a></p>
                         <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#bases"><i class="fa-solid fa-arrow-down"></i> Bases</a></p>
                         <p><a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guia"><i class="fa-solid fa-arrow-down"></i> Guía del aspirante</a></p>
@@ -111,7 +111,7 @@ $convoActivo = 12;
 
                 </div>
             </div>
-        </div> 
+        </div>
 
 
 
@@ -154,20 +154,11 @@ $convoActivo = 12;
             <div class="row justify-content-center">
                 <div class="col-12 col-md-4 mb-4 d-none">
                     <div class="card-convo">
-                        <img src="assets/img/identidad-G82.webp" height="140" alt="convocatoria 82">
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a></p>
-                        <p> <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a></p>
-                    </div>
-                </div>
-
-                <div class="col-12 col-md-4 mb-4">
-                    <div class="card-convo">
                         <p class="d-inline-flex gap-2 align-items-center">
                             <span><img src="assets/img/identidad-g83.webp" height="140" alt="convocatoria 83"> </span><br>
                             <span class=" text-start">
-                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a><br>
-                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a><br>
-                                <a class="btn-opciones" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank"><i class="fa-solid fa-key"></i> Obtén tus claves de acceso</a>
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoA"><i class="fa-solid fa-list"></i> Ver proceso</a><br>
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaA"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a><br>
                             </span>
                         </p>
                     </div>
@@ -178,9 +169,21 @@ $convoActivo = 12;
                         <p class="d-inline-flex gap-2 align-items-center">
                             <span><img src="assets/img/identidad-G84.png" height="140" alt="convocatoria 84"></span><br>
                             <span class=" text-start">
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoB"><i class="fa-solid fa-list"></i> Ver proceso</a><br>
+                                <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaB"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a><br>
+                            </span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card-convo">
+                        <p class="d-inline-flex gap-2 align-items-center">
+                            <span><img src="assets/img/identidad-g85.png" height="140" alt="convocatoria 85"></span><br>
+                            <span class=" text-start">
                                 <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#sigueprocesoC"><i class="fa-solid fa-list"></i> Ver proceso</a><br>
                                 <a class="btn-opciones" href="#" data-bs-toggle="modal" data-bs-target="#guiaC"><i class="fa-regular fa-address-book"></i> Guía del aspirante</a><br>
-                                <a class="btn-opciones" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" ><i class="fa-solid fa-key"></i> Obtén tus claves de acceso</a>
+                                <a class="btn-opciones" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank"><i class="fa-solid fa-key"></i> Obtén tus claves de acceso</a>
                             </span>
                         </p>
                     </div>
@@ -493,11 +496,11 @@ $convoActivo = 12;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-82/guia_aspirante_g82.pdf"></iframe>
+                            <iframe class="pdf" src="kit-83/guia_aspirante_g83.pdf"></iframe>
                         </div>
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-82/guia_aspirante_g82.pdf" download="PL-SEP_Convo2025-G82-guia_registro.pdf" onclick="conteo_recurso(16)">
+                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_registro.pdf" onclick="conteo_recurso(16)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -521,12 +524,12 @@ $convoActivo = 12;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-83/guia_aspirante_g83.pdf"></iframe>
+                            <iframe class="pdf" src="kit-84/guia_aspirante_g84.pdf"></iframe>
                         </div>
 
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-83/guia_aspirante_g83.pdf" download="PL-SEP_Convo2025-G83-guia_registro.pdf" onclick="conteo_recurso(21)">
+                                <a class="btn btn-labeled" href="kit-84/guia_aspirante_g84.pdf" download="PL-SEP_Convo2025-G84-guia_registro.pdf" onclick="conteo_recurso(21)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -550,12 +553,12 @@ $convoActivo = 12;
                 <div class="modal-body">
                     <div class="container fluid">
                         <div class="row justify-content-center">
-                            <iframe class="pdf" src="kit-84/guia_aspirante_g84.pdf"></iframe>
+                            <iframe class="pdf" src="kit-85/guia_aspirante_g85.pdf"></iframe>
                         </div>
 
                         <div class="row justify-content-center mt-4">
                             <div class="col-12 col-md-11 text-center">
-                                <a class="btn btn-labeled" href="kit-84/guia_aspirante_g84.pdf" download="PL-SEP_Convo2025-G84-guia_registro.pdf" onclick="conteo_recurso(26)">
+                                <a class="btn btn-labeled" href="kit-85/guia_aspirante_g85.pdf" download="PL-SEP_Convo2025-G85-guia_registro.pdf" onclick="conteo_recurso(26)">
                                     <span class="btn-label"><i class="fa-solid fa-arrow-down iconol"></i> </span>
                                     <div class="text-bottom">Descargar</div>
                                 </a>
@@ -580,25 +583,24 @@ $convoActivo = 12;
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-10">
-                                <div class="text-center"> <img src="assets/img/identidad-G82.webp" height="140" alt="G82"></div>
+                                <div class="text-center"> <img src="assets/img/identidad-g83.webp" height="140" alt="G83"></div>
 
                                 <ul class="timeline text-center">
                                     <li>
                                         <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(12,<?php echo $secA; ?>)">Obtén tus claves de acceso</a>
-                                        <p>del 31 de octubre<br>al 2 de noviembre</p>
+                                        <p>del 28 al 30 de noviembre</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(13,<?php echo $secA; ?>)">Cursa el módulo propedéutico</a>
-                                        <p>del 3 al 12 de noviembre
-                                        </p>
+                                        <p>del 1 al 10 de diciembre</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(14,<?php echo $secA; ?>)">Consulta tus resultados e inscríbete</a>
-                                        <p>del 14 al 19 de noviembre</p>
+                                        <p>del 12 al 17 de diciembre</p>
                                     </li>
                                     <li class="last enproceso">
                                         <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(15,<?php echo $secA; ?>)">Cursa el módulo 1</a>
-                                        <p>del 24 de noviembre <br>al 21 de diciembre <span style="color: transparent;">.</span> </p>
+                                        <p>del 5 de enero <br> al 1 de febrero</p> <span style="color: transparent;">.</span> </p>
                                     </li>
                                 </ul>
                             </div>
@@ -622,26 +624,25 @@ $convoActivo = 12;
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-10">
-                                <div class="text-center"> <img src="assets/img/identidad-g83.webp" height="140" alt="G83"></div>
+                                <div class="text-center"> <img src="assets/img/identidad-G84.png" height="140" alt="G84"></div>
 
                                 <p class="text-center d-none"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 <ul class="timeline text-center">
                                     <li>
                                         <a class="btn btn-timeline disabled" href="https://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(17,<?php echo $secB; ?>)">Obtén tus claves de acceso</a>
-                                        <p>del 28 al 30 de noviembre</p>
+                                        <p>del 9 al 11 de enero</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(18,<?php echo $secB; ?>)">Cursa el módulo propedéutico</a>
-                                        <p>del 1 al 10 de diciembre</p>
+                                        <p>del 12 al 21 de enero</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(19,<?php echo $secB; ?>)">Consulta tus resultados e inscríbete</a>
-                                        <p>del 12 al 17 de diciembre</p>
+                                        <p>del 23 al 28 de enero</p>
                                     </li>
                                     <li class="last enproceso">
                                         <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(20,<?php echo $secB; ?>)">Cursa el módulo 1</a>
-                                        <p>del 5 de enero <br>
-                                            al 1 de febrero</p>
+                                        <p>del 2 de febrero <br> al 1 de marzo</p>
                                     </li>
                                 </ul>
                             </div>
@@ -665,25 +666,25 @@ $convoActivo = 12;
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-12 col-md-10">
-                                <div class="text-center"> <img src="assets/img/identidad-G84.png" height="140" alt="G84"></div>
+                                <div class="text-center"> <img src="assets/img/identidad-g85.png" height="140" alt="G85"></div>
                                 <p class="text-center d-none"><a class="btn btn-estatus my-4 " href="https://registro.prepaenlinea.sep.gob.mx/registro/public/" target="_blank" onclick="conteo_recurso(2)">Estatus de registro <i class="fa-solid fa-arrow-right"></i></a></p>
                                 <ul class="timeline text-center">
 
-                                    <li>
-                                        <a class="btn btn-timeline disabled" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
-                                        <p>del 9 al 11 de enero</p>
-                                    </li>
                                     <li class="enproceso">
+                                        <a class="btn btn-timeline activo" href="http://registro.prepaenlinea.sep.gob.mx/registro/public/index.php/estatus_prope" target="_blank" onclick="conteo_recurso(22,<?php echo $secC; ?>)">Obtén tus claves de acceso</a>
+                                        <p>del 6 al 8 de febrero</p>
+                                    </li>
+                                    <li>
                                         <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(23,<?php echo $secC; ?>)">Cursa el módulo propedéutico</a>
-                                        <p>del 12 al 21 de enero</p>
+                                        <p>del 9 al 18 de febrero</p>
                                     </li>
                                     <li>
                                         <a class="btn btn-timeline disabled" href="https://prepaenlinea.sep.gob.mx/publicacion-de-resultados/" target="_blank" onclick="conteo_recurso(24,<?php echo $secC; ?>)">Consulta tus resultados e inscríbete</a>
-                                        <p>del 23 al 28 de enero</p>
+                                        <p>del 20 al 25 de febrero</p>
                                     </li>
                                     <li lass="last">
-                                        <a class="btn btn-timeline activo" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
-                                        <p>del 2 de febrero <br> al 1 de marzo</p>
+                                        <a class="btn btn-timeline disabled" data-bs-toggle="modal" data-bs-target="#micomunidad" href="#micomunidad" onclick="conteo_recurso(25,<?php echo $secC; ?>)">Cursa el módulo 1</a>
+                                        <p>del 2 al 29 de marzo</p>
                                     </li>
                                 </ul>
                             </div>

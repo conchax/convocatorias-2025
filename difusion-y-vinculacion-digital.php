@@ -61,7 +61,7 @@
                 <div class="col col-md-9">
 
                     <div class="des">
-                        <h1 class="mb-3">Difusión y vinculación digital</h1>
+                        <h1>Difusión y vinculación digital </h1>
                     </div>
                 </div>
             </div>
@@ -71,9 +71,10 @@
     <section class="mb-4">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col-12 col-md-9">
-                    <p class="parrafo text-center">
-                        Este espacio contiene los recursos oficiales de las convocatorias de registro a Prepa en Línea-SEP para su difusión en redes sociales y portales institucionales o sitios web.
+                <div class="col-12 subtitle mb-5">Difunde PL-SEP</div>
+                <div class="col-12 col-md-8 ">
+                    <p class="parrafo text-center px-md-5">
+                        Un nuevo espacio con los recursos de difusión de la convocatoria para la generación 86 de Prepa en Línea-SEP. 
                     </p>
                 </div>
             </div>
@@ -96,16 +97,28 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container d-none">
         <div class="row justify-content-center">
             <div class="col-12-col-md-6 mb-4">
 
-                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>85</b></span> inicia el 26  de enero al 4 de febrero.</p>
+                <p class="parrafo-ml text-center">El periodo de registro de la Convocatoria para <span>Generación <b>86</b></span> inicia el 23  de febrero al 4 de marzo.</p>
             </div>
         </div>
     </div>
 
     <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="element">
+                        Estreno 23 de febrero
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-none">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -183,9 +196,9 @@
     <section>
         <div class="container">
             <div class="col-12 mt-4">
-                <p class="parrafo text-center"><b>¿Te gustaría formar parte de nuestras instituciones aliadas?</b> Déjanos tus datos aquí. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1" target="_blank" onclick="conteo_recurso(37)"> <i class="fa-regular fa-rectangle-list"></i></a> </p>
-                <p class="parrafo text-center"><b>Nuestras instituciones aliadas</b></p>
-                <section class="responsive slider">
+                <p class="parrafo text-center d-none"><b>¿Te gustaría formar parte de nuestras instituciones aliadas?</b> Déjanos tus datos aquí. <a href="https://docs.google.com/forms/d/e/1FAIpQLSdI6ag1ITCa4VpQ5CC06hmHBS2dXhwSaY70Bnm42TSUaLW1cw/viewform?pli=1" target="_blank" onclick="conteo_recurso(37)"> <i class="fa-regular fa-rectangle-list"></i></a> </p>
+                <p class="parrafo text-center d-none"><b>Nuestras instituciones aliadas</b></p>
+                <section class="responsive slider d-none ">
                     <div>
                         <a href="http://www.xochimilco.cdmx.gob.mx/" target="_blank"><img src="assets/img/logos/1.jpg"></a>
                     </div>

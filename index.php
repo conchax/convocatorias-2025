@@ -281,14 +281,14 @@ $convoActivo = 12;
         </div>
         <div class="container">
             <div class="row justify-content-center mt-4">
-                <!-- <div class="col-12 col-md-6 text-md-end text-center ">
+                <div class="col-12 col-md-6 text-md-end text-center ">
                     <div class="pe-md-5 mb-4">
                         <a class="btn btn-labeled" href="difusion-y-vinculacion-digital.php" target="_blank" onclick="conteo_recurso(5)">
                             <span class="btn-label"><i class="fa-solid fa-bullhorn iconol"></i></span>
                             <div class="text-bottom">Difusión y vinculación</div>
                         </a>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-12 col-md-6 text-md-start text-center"> <!--  -->
                     <div class="text-center"><!-- ps-md-5 -->
                         <a class="btn btn-labeled" href="https://prepaenlinea.sep.gob.mx/mesadeservicio" target="_blank" onclick="conteo_recurso(7)">
